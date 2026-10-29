@@ -1,0 +1,5575 @@
+[
+  {
+    "schema_version": 1,
+    "id": "bacon-cheeseburger-sliders",
+    "title": "Bacon Cheeseburger Sliders — Thin Patties",
+    "recipe_type": "full_dish",
+    "tags": [
+      "sliders",
+      "beef",
+      "bacon"
+    ],
+    "standardization": {
+      "description": "12 Hawaiian-roll sliders (two thin oversized beef slabs)",
+      "scale_basis": {
+        "ingredient_id": "hawaiian-rolls",
+        "quantity": 12,
+        "unit": "each"
+      }
+    },
+    "time": {
+      "prep_minutes": 20,
+      "inactive_minutes": 0,
+      "cook_minutes": 20,
+      "total_minutes": 40
+    },
+    "yield_info": {
+      "servings": 12,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "Pending confirmed brands, weights, and quantities"
+    },
+    "ingredients": [
+      {
+        "id": "hawaiian-rolls",
+        "name": "Hawaiian rolls",
+        "quantity": 12,
+        "unit": "each",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "ground-beef",
+        "name": "80/20 ground beef",
+        "quantity": 1.5,
+        "unit": "lb",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "cooked-bacon",
+        "name": "Bacon",
+        "quantity": 12,
+        "unit": "slice",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "sliced-cheese",
+        "name": "Cheddar slices",
+        "quantity": 6,
+        "unit": "slice",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "kosher-salt",
+        "name": "Diamond Crystal kosher salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "black-pepper",
+        "name": "Black pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "butter-topping",
+        "name": "Butter for roll tops",
+        "quantity": 1,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": true,
+        "quantity_origin": "reconstructed_default"
+      }
+    ],
+    "phases": [
+      {
+        "id": "prepare-ahead",
+        "name": "Prepare ahead",
+        "steps": [
+          {
+            "id": "bacon-cheeseburger-sliders-p1-s1",
+            "instruction": "Cook bacon until crisp and drain on paper towels. Keep chilled if assembling well ahead.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "cooked-bacon"
+              }
+            ],
+            "time_minutes": 12,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "bacon-cheeseburger-sliders-p1-s2",
+            "instruction": "For each connected sheet of rolls, shape two thin, wide beef slabs slightly larger than the sheet (to allow shrinkage). Season both sides just before cooking.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "ground-beef"
+              },
+              {
+                "ingredient_id": "kosher-salt"
+              },
+              {
+                "ingredient_id": "black-pepper"
+              }
+            ],
+            "time_minutes": 7,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "bacon-cheeseburger-sliders-p1-s3",
+            "instruction": "Sear slabs on a large griddle or skillet over medium-high heat until browned and the ground beef reaches 160°F; work in batches if needed.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "ground-beef"
+              }
+            ],
+            "time_minutes": 8,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      },
+      {
+        "id": "assemble-and-finish",
+        "name": "Assemble and finish",
+        "steps": [
+          {
+            "id": "bacon-cheeseburger-sliders-p2-s1",
+            "instruction": "Split each connected sheet of rolls horizontally. Layer both beef slabs, the cooked bacon and cheese on the bottom half. Replace roll tops.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "hawaiian-rolls"
+              },
+              {
+                "ingredient_id": "ground-beef"
+              },
+              {
+                "ingredient_id": "cooked-bacon"
+              },
+              {
+                "ingredient_id": "sliced-cheese"
+              }
+            ],
+            "time_minutes": 5,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "bacon-cheeseburger-sliders-p2-s2",
+            "instruction": "Optionally brush tops with melted butter. Bake at 350°F until the cheese melts and rolls are hot, about 8–12 minutes. Slice into individual sliders.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "butter-topping"
+              }
+            ],
+            "time_minutes": 10,
+            "temperature_f": 350,
+            "source_status": "reconstructed"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Bacon is cooked separately and layered, not mixed raw into beef. The two slab patties were a proposed smash-style approach; slab dimensions depend on the roll sheet.",
+      "Make-ahead: cook components earlier, refrigerate promptly; reheat assembled sliders until piping hot.",
+      "Recipe-editor note: some ingredient quantities were filled in or normalized for practical cooking and are identified by quantity_origin in JSON; they were not all recovered verbatim from the original chat."
+    ],
+    "history_notes": [],
+    "provenance": {
+      "status": "historical_conversation_plus_editorial_reconstruction",
+      "source": "Existing Kitchen Notes historical archive; quantities absent from archive estimated for practical cooking",
+      "review_status": "editorial_defaults_not_tested",
+      "quantity_policy": "Existing archive quantities retained unless documented in editorial changes; reconstructed amounts explicitly labeled by ingredient."
+    }
+  },
+  {
+    "schema_version": 1,
+    "id": "baked-french-toast",
+    "title": "Baked French Toast — Quick or Overnight",
+    "recipe_type": "full_dish",
+    "tags": [
+      "breakfast",
+      "baking",
+      "make-ahead"
+    ],
+    "standardization": {
+      "description": "Two-loaf batch; compatible with 60/40 quick/overnight split",
+      "scale_basis": {
+        "ingredient_id": "brioche-or-challah",
+        "quantity": 2,
+        "unit": "loaf"
+      }
+    },
+    "time": {
+      "prep_minutes": 25,
+      "inactive_minutes": 60,
+      "cook_minutes": 50,
+      "total_minutes": 135
+    },
+    "yield_info": {
+      "servings": 14,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "Pending confirmed brands, weights, and quantities"
+    },
+    "ingredients": [
+      {
+        "id": "brioche-or-challah",
+        "name": "Brioche or challah",
+        "quantity": 2,
+        "unit": "loaf",
+        "preparation": "day-old, cubed",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "eggs",
+        "name": "Large eggs",
+        "quantity": 10,
+        "unit": "each",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "milk",
+        "name": "Whole milk",
+        "quantity": 3,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "cream",
+        "name": "Heavy cream",
+        "quantity": 1,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "sugar",
+        "name": "Granulated sugar",
+        "quantity": 0.5,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "vanilla",
+        "name": "Vanilla extract",
+        "quantity": 2,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "cinnamon",
+        "name": "Ground cinnamon",
+        "quantity": 2,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "nuts-optional-topping",
+        "name": "Chopped walnuts or pecans",
+        "quantity": 1,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": true,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "brown-sugar-topping",
+        "name": "Brown sugar for nut topping",
+        "quantity": 0.25,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": true,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "melted-butter-topping",
+        "name": "Melted butter for nut topping",
+        "quantity": 2,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": true,
+        "quantity_origin": "reconstructed_default"
+      }
+    ],
+    "phases": [
+      {
+        "id": "assemble",
+        "name": "Assemble",
+        "steps": [
+          {
+            "id": "baked-french-toast-p1-s1",
+            "instruction": "Butter or lightly grease enough baking dishes for your batch. Divide cubed bread among them; for the historical split, use 60% in the larger dish and 40% in the smaller.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "brioche-or-challah"
+              }
+            ],
+            "time_minutes": 10,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "baked-french-toast-p1-s2",
+            "instruction": "Whisk eggs, milk, cream, sugar, vanilla and cinnamon until fully combined. Pour over bread, dividing custard in the same 60/40 ratio if using unequal dishes.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "eggs"
+              },
+              {
+                "ingredient_id": "milk"
+              },
+              {
+                "ingredient_id": "cream"
+              },
+              {
+                "ingredient_id": "sugar"
+              },
+              {
+                "ingredient_id": "vanilla"
+              },
+              {
+                "ingredient_id": "cinnamon"
+              }
+            ],
+            "time_minutes": 8,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "baked-french-toast-p1-s3",
+            "instruction": "For optional crunchy topping, combine chopped nuts, brown sugar and melted butter; store chilled until ready to bake.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "nuts-optional-topping"
+              },
+              {
+                "ingredient_id": "brown-sugar-topping"
+              },
+              {
+                "ingredient_id": "melted-butter-topping"
+              }
+            ],
+            "time_minutes": 5,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      },
+      {
+        "id": "rest",
+        "name": "Rest",
+        "steps": [
+          {
+            "id": "baked-french-toast-p2-s1",
+            "instruction": "For overnight version, cover and refrigerate 8–12 hours. For the quick version, let absorb for 30–60 minutes; very gently warmed custard may help. Refrigerate for rests over two hours.",
+            "ingredient_uses": [],
+            "time_minutes": 60,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      },
+      {
+        "id": "bake",
+        "name": "Bake",
+        "steps": [
+          {
+            "id": "baked-french-toast-p3-s1",
+            "instruction": "Preheat oven to 350°F. Scatter optional topping over each dish just before baking.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "nuts-optional-topping"
+              }
+            ],
+            "time_minutes": 5,
+            "temperature_f": 350,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "baked-french-toast-p3-s2",
+            "instruction": "Bake until center is set and top golden, about 35–45 minutes for the smaller dish and 45–60 minutes for the larger or refrigerator-cold dish. Cover loosely with foil if browning early. Center of an egg casserole should reach 160°F.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "brioche-or-challah"
+              }
+            ],
+            "time_minutes": 50,
+            "temperature_f": 350,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "baked-french-toast-p3-s3",
+            "instruction": "Rest 10 minutes before serving. Slice portions from each pan.",
+            "ingredient_uses": [],
+            "time_minutes": 10,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "December 2025: two-loaf batch split 60% for overnight and 40% for immediate consumption, with bread and custard in matching proportions.",
+      "Cashews, almonds, or pecan/peanut mix discussed as topping alternatives; avoid peanut mix if possible.",
+      "All custard quantities and baking guidance are editorial defaults, not recovered verbatim from December 2025. Pan size and bread-loaf size can require adjustment: custard should moisten bread throughout, not drown it.",
+      "For the original split, quick version used 40% of bread and custard; overnight version used 60%. Overnight rest can replace the 60-minute active-day rest.",
+      "Walnuts or pecans preferred; avoid a peanut-heavy topping.",
+      "Recipe-editor note: some ingredient quantities were filled in or normalized for practical cooking and are identified by quantity_origin in JSON; they were not all recovered verbatim from the original chat."
+    ],
+    "history_notes": [],
+    "provenance": {
+      "status": "historical_conversation_plus_editorial_reconstruction",
+      "source": "Existing Kitchen Notes historical archive; quantities absent from archive estimated for practical cooking",
+      "review_status": "editorial_defaults_not_tested",
+      "quantity_policy": "Existing archive quantities retained unless documented in editorial changes; reconstructed amounts explicitly labeled by ingredient."
+    }
+  },
+  {
+    "schema_version": 1,
+    "id": "panko-chicken-tenderloins",
+    "title": "Baked Panko Chicken Tenderloins",
+    "recipe_type": "full_dish",
+    "tags": [
+      "chicken",
+      "breaded",
+      "oven"
+    ],
+    "standardization": {
+      "description": "October 2026 short-marination version: 2.3 lb tenderloins, 45 minutes",
+      "scale_basis": {
+        "ingredient_id": "chicken-tenderloins",
+        "quantity": 2.3,
+        "unit": "lb"
+      }
+    },
+    "time": {
+      "prep_minutes": 22,
+      "inactive_minutes": 45,
+      "cook_minutes": 20,
+      "total_minutes": 87
+    },
+    "yield_info": {
+      "servings": 7,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "Pending confirmed brands, weights, and quantities"
+    },
+    "ingredients": [
+      {
+        "id": "chicken-tenderloins",
+        "name": "Chicken tenderloins",
+        "quantity": 2.3,
+        "unit": "lb",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "plain-yogurt",
+        "name": "Plain yogurt",
+        "quantity": 1,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "marinade-lemon",
+        "name": "Lemon juice (marinade)",
+        "quantity": 1,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "marinade-paprika",
+        "name": "Paprika (marinade)",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "marinade-garlic",
+        "name": "Garlic powder (marinade)",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "marinade-salt",
+        "name": "Kosher salt (marinade)",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "marinade-pepper",
+        "name": "Black pepper (marinade)",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "panko-breadcrumbs",
+        "name": "Panko breadcrumbs",
+        "quantity": 1.5,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "oil-or-melted-butter",
+        "name": "Melted butter or neutral oil (crumbs)",
+        "quantity": 3,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "breading-paprika",
+        "name": "Paprika (breading)",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "breading-garlic",
+        "name": "Garlic powder (breading)",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      }
+    ],
+    "phases": [
+      {
+        "id": "45-minute-marinade",
+        "name": "45-minute marinade",
+        "steps": [
+          {
+            "id": "panko-chicken-tenderloins-p1-s1",
+            "instruction": "Whisk yogurt, lemon juice, and marinade seasonings in a large bowl. Add chicken and coat fully. Cover and refrigerate for 45 minutes (or up to 3 hours).",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "plain-yogurt"
+              },
+              {
+                "ingredient_id": "marinade-lemon"
+              },
+              {
+                "ingredient_id": "marinade-paprika"
+              },
+              {
+                "ingredient_id": "marinade-garlic"
+              },
+              {
+                "ingredient_id": "marinade-salt"
+              },
+              {
+                "ingredient_id": "marinade-pepper"
+              },
+              {
+                "ingredient_id": "chicken-tenderloins"
+              }
+            ],
+            "time_minutes": 5,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      },
+      {
+        "id": "bread",
+        "name": "Bread",
+        "steps": [
+          {
+            "id": "panko-chicken-tenderloins-p2-s1",
+            "instruction": "Preheat oven to 425°F. Set a rack over a baking sheet (lightly oil the rack). Mix panko with melted butter or oil and breading spices.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "panko-breadcrumbs"
+              },
+              {
+                "ingredient_id": "oil-or-melted-butter"
+              },
+              {
+                "ingredient_id": "breading-paprika"
+              },
+              {
+                "ingredient_id": "breading-garlic"
+              }
+            ],
+            "time_minutes": 5,
+            "temperature_f": 425,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "panko-chicken-tenderloins-p2-s2",
+            "instruction": "Lift chicken from yogurt and scrape off excess without wiping it clean. Press into panko mixture on all sides; arrange with space between pieces.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "chicken-tenderloins"
+              },
+              {
+                "ingredient_id": "panko-breadcrumbs"
+              }
+            ],
+            "time_minutes": 12,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      },
+      {
+        "id": "bake",
+        "name": "Bake",
+        "steps": [
+          {
+            "id": "panko-chicken-tenderloins-p3-s1",
+            "instruction": "Bake 17–22 minutes, depending on size, until golden and the thickest piece reaches 165°F. If needed, broil briefly while watching closely.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "chicken-tenderloins"
+              }
+            ],
+            "time_minutes": 20,
+            "temperature_f": 425,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "panko-chicken-tenderloins-p3-s2",
+            "instruction": "Rest 3–5 minutes, then serve. For extra crispness, avoid piling the tenders on each other.",
+            "ingredient_uses": [],
+            "time_minutes": 5,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Alternative crumb mixture: 1 cup panko plus ⅓ cup fine/medium cornmeal.",
+      "Marinade and breading amounts are editorial estimates tailored to the historical 2.3-lb batch. The 45-minute marinade was specifically requested; an older version used about 3 hours.",
+      "Previously discussed variation: replace some panko with ⅓ cup fine/medium cornmeal per cup panko.",
+      "Recipe-editor note: some ingredient quantities were filled in or normalized for practical cooking and are identified by quantity_origin in JSON; they were not all recovered verbatim from the original chat."
+    ],
+    "history_notes": [],
+    "provenance": {
+      "status": "historical_conversation_plus_editorial_reconstruction",
+      "source": "Existing Kitchen Notes historical archive; quantities absent from archive estimated for practical cooking",
+      "review_status": "editorial_defaults_not_tested",
+      "quantity_policy": "Existing archive quantities retained unless documented in editorial changes; reconstructed amounts explicitly labeled by ingredient."
+    }
+  },
+  {
+    "schema_version": 1,
+    "id": "shredded-chuck-roast-tacos",
+    "title": "Braised Shredded Chuck Roast for Tacos",
+    "recipe_type": "full_dish",
+    "tags": [
+      "beef",
+      "tacos",
+      "braise"
+    ],
+    "standardization": {
+      "description": "3.9-lb chuck roast (two pieces), braised for two dinners",
+      "scale_basis": {
+        "ingredient_id": "choice-beef-chuck-roast",
+        "quantity": 3.9,
+        "unit": "lb"
+      }
+    },
+    "time": {
+      "prep_minutes": 35,
+      "inactive_minutes": 0,
+      "cook_minutes": 240,
+      "total_minutes": 275
+    },
+    "yield_info": {
+      "servings": 12,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "Pending confirmed brands, weights, and quantities"
+    },
+    "ingredients": [
+      {
+        "id": "choice-beef-chuck-roast",
+        "name": "Choice beef chuck roast",
+        "quantity": 3.9,
+        "unit": "lb",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "onion",
+        "name": "Onion",
+        "quantity": 2,
+        "unit": "cup",
+        "preparation": "diced",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "garlic",
+        "name": "Garlic cloves",
+        "quantity": 4,
+        "unit": "clove",
+        "preparation": "minced",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "broth-or-braising-liquid",
+        "name": "Beef broth",
+        "quantity": 1.5,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "chili-powder",
+        "name": "Chili powder",
+        "quantity": 2,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "ground-cumin",
+        "name": "Ground cumin",
+        "quantity": 2,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "smoked-paprika",
+        "name": "Smoked paprika",
+        "quantity": 2,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "oregano",
+        "name": "Dried oregano",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "salt",
+        "name": "Kosher salt",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "pepper",
+        "name": "Black pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "oil",
+        "name": "Neutral oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "tomato-paste",
+        "name": "Tomato paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      }
+    ],
+    "phases": [
+      {
+        "id": "prepare-and-sear",
+        "name": "Prepare and sear",
+        "steps": [
+          {
+            "id": "shredded-chuck-roast-tacos-p1-s1",
+            "instruction": "Preheat oven to 300°F. Pat beef dry, combine seasonings and coat all sides.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "choice-beef-chuck-roast"
+              },
+              {
+                "ingredient_id": "chili-powder"
+              },
+              {
+                "ingredient_id": "ground-cumin"
+              },
+              {
+                "ingredient_id": "smoked-paprika"
+              },
+              {
+                "ingredient_id": "oregano"
+              },
+              {
+                "ingredient_id": "salt"
+              },
+              {
+                "ingredient_id": "pepper"
+              }
+            ],
+            "time_minutes": 7,
+            "temperature_f": 300,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "shredded-chuck-roast-tacos-p1-s2",
+            "instruction": "Heat oil in a heavy Dutch oven. Brown the roast pieces thoroughly on several sides, working in batches if needed; transfer to a plate.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "oil"
+              },
+              {
+                "ingredient_id": "choice-beef-chuck-roast"
+              }
+            ],
+            "time_minutes": 12,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "shredded-chuck-roast-tacos-p1-s3",
+            "instruction": "Cook diced onion 4–5 minutes in the same pot, add garlic and tomato paste and stir one minute.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "onion"
+              },
+              {
+                "ingredient_id": "garlic"
+              },
+              {
+                "ingredient_id": "tomato-paste"
+              }
+            ],
+            "time_minutes": 6,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      },
+      {
+        "id": "braise-and-shred",
+        "name": "Braise and shred",
+        "steps": [
+          {
+            "id": "shredded-chuck-roast-tacos-p2-s1",
+            "instruction": "Pour in broth and scrape browned bits from the pot bottom. Nestle beef in (liquid should come about one-third up the meat); cover tightly.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "broth-or-braising-liquid"
+              },
+              {
+                "ingredient_id": "choice-beef-chuck-roast"
+              }
+            ],
+            "time_minutes": 3,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "shredded-chuck-roast-tacos-p2-s2",
+            "instruction": "Braise covered at 300°F about 3½–4½ hours, until beef pulls apart easily with forks; add a splash of liquid if the pot dries.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "choice-beef-chuck-roast"
+              }
+            ],
+            "time_minutes": 240,
+            "temperature_f": 300,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "shredded-chuck-roast-tacos-p2-s3",
+            "instruction": "Shred beef, discard large fatty pieces, and moisten with reduced cooking liquid. Serve in tacos; refrigerate leftovers promptly.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "choice-beef-chuck-roast"
+              }
+            ],
+            "time_minutes": 12,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "The historical plan was a full long braise for two nights. Spices, aromatic volumes, 300°F oven and braising schedule are editorial defaults.",
+      "Stir into the braising liquid for serving rather than adding all fat back in.",
+      "Recipe-editor note: some ingredient quantities were filled in or normalized for practical cooking and are identified by quantity_origin in JSON; they were not all recovered verbatim from the original chat."
+    ],
+    "history_notes": [],
+    "provenance": {
+      "status": "historical_conversation_plus_editorial_reconstruction",
+      "source": "Existing Kitchen Notes historical archive; quantities absent from archive estimated for practical cooking",
+      "review_status": "editorial_defaults_not_tested",
+      "quantity_policy": "Existing archive quantities retained unless documented in editorial changes; reconstructed amounts explicitly labeled by ingredient."
+    }
+  },
+  {
+    "schema_version": 1,
+    "id": "butter-chicken-fresh-garlic-ginger",
+    "title": "Butter Chicken — Fresh Garlic & Ginger",
+    "recipe_type": "full_dish",
+    "tags": [
+      "chicken",
+      "indian-inspired",
+      "make-ahead",
+      "fresh-garlic",
+      "fresh-ginger"
+    ],
+    "standardization": {
+      "description": "1.75 lb chicken; same butter chicken base as the spice-kit version, with fresh garlic and fresh ginger in both marinade and sauce",
+      "scale_basis": {
+        "ingredient_id": "chicken",
+        "quantity": 1.75,
+        "unit": "lb"
+      }
+    },
+    "time": {
+      "prep_minutes": 35,
+      "inactive_minutes": 60,
+      "cook_minutes": 40,
+      "total_minutes": 135
+    },
+    "yield_info": {
+      "servings": 6,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "pending_ingredient_brand_and_weight_review"
+    },
+    "ingredients": [
+      {
+        "id": "chicken",
+        "name": "Boneless skinless chicken thighs",
+        "quantity": 1.75,
+        "unit": "lb",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "yogurt",
+        "name": "Plain yogurt",
+        "quantity": 0.75,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "lemon",
+        "name": "Lemon juice",
+        "quantity": 1,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "mcumin",
+        "name": "Ground cumin (marinade)",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "mcoriander",
+        "name": "Ground coriander (marinade)",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "mpaprika",
+        "name": "Paprika (marinade)",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "mgaram",
+        "name": "Garam masala (marinade)",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "mturmeric",
+        "name": "Turmeric (marinade)",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "msalt",
+        "name": "Salt (marinade)",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "mgarlic",
+        "name": "Fresh garlic (marinade)",
+        "quantity": 3,
+        "unit": "clove",
+        "preparation": "minced",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "mginger",
+        "name": "Fresh ginger (marinade)",
+        "quantity": 1,
+        "unit": "tbsp",
+        "preparation": "peeled and finely grated",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "onion",
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "cup",
+        "preparation": "diced",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "tomato-paste",
+        "name": "Tomato paste",
+        "quantity": 3,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "tomatoes",
+        "name": "Canned tomatoes",
+        "quantity": 1,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "cream",
+        "name": "Heavy cream",
+        "quantity": 0.75,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "butter",
+        "name": "Unsalted butter",
+        "quantity": 4,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "scumin",
+        "name": "Ground cumin (sauce)",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "scoriander",
+        "name": "Ground coriander (sauce)",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "spaprika",
+        "name": "Paprika (sauce)",
+        "quantity": 1.25,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "sturmeric",
+        "name": "Turmeric (sauce)",
+        "quantity": 0.75,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "sgaram",
+        "name": "Garam masala (sauce)",
+        "quantity": 0.75,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "scayenne",
+        "name": "Cayenne (sauce)",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "scinnamon",
+        "name": "Cinnamon (sauce)",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "scardamom",
+        "name": "Ground cardamom (sauce)",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "sgarlic",
+        "name": "Fresh garlic (sauce)",
+        "quantity": 3,
+        "unit": "clove",
+        "preparation": "minced",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "sginger",
+        "name": "Fresh ginger (sauce)",
+        "quantity": 1,
+        "unit": "tbsp",
+        "preparation": "peeled and finely grated",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "sugar",
+        "name": "Sugar (sauce)",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "ssalt",
+        "name": "Salt (sauce)",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      }
+    ],
+    "phases": [
+      {
+        "id": "marinade",
+        "name": "Marinade",
+        "steps": [
+          {
+            "id": "bcf-1",
+            "instruction": "Whisk together the yogurt, lemon juice, marinade spices, minced fresh garlic, and finely grated fresh ginger.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "mcumin"
+              },
+              {
+                "ingredient_id": "mcoriander"
+              },
+              {
+                "ingredient_id": "mpaprika"
+              },
+              {
+                "ingredient_id": "mgaram"
+              },
+              {
+                "ingredient_id": "mturmeric"
+              },
+              {
+                "ingredient_id": "msalt"
+              },
+              {
+                "ingredient_id": "mgarlic"
+              },
+              {
+                "ingredient_id": "mginger"
+              },
+              {
+                "ingredient_id": "yogurt"
+              },
+              {
+                "ingredient_id": "lemon"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "bcf-2",
+            "instruction": "Coat the chicken in the marinade, refrigerate, and marinate (overnight is an established option).",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "chicken"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "verified"
+          }
+        ]
+      },
+      {
+        "id": "chicken",
+        "name": "Chicken",
+        "steps": [
+          {
+            "id": "bcf-3",
+            "instruction": "Roast marinated chicken at 450°F until cooked through and 165°F internally; thicker thighs may take longer than the earlier 18–20 minute guideline.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "chicken"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": 450,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "bcf-4",
+            "instruction": "Rest briefly, cut chicken into pieces, and reserve the pan juices.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "chicken"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "verified"
+          }
+        ]
+      },
+      {
+        "id": "sauce",
+        "name": "Sauce",
+        "steps": [
+          {
+            "id": "bcf-5",
+            "instruction": "Melt the first portion of butter over medium heat and soften the diced onion.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "butter",
+                "quantity": 2.5,
+                "unit": "tbsp"
+              },
+              {
+                "ingredient_id": "onion"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "bcf-5b",
+            "instruction": "Stir the minced fresh garlic and grated fresh ginger into the softened onions. Cook for 30–60 seconds, stirring constantly, just until fragrant; do not let the garlic brown.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "sgarlic"
+              },
+              {
+                "ingredient_id": "sginger"
+              }
+            ],
+            "time_minutes": 1,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "bcf-6",
+            "instruction": "Add tomato paste and the remaining dry sauce spices (plus sugar and salt). Stir and cook briefly until fragrant, without scorching.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "tomato-paste"
+              },
+              {
+                "ingredient_id": "scumin"
+              },
+              {
+                "ingredient_id": "scoriander"
+              },
+              {
+                "ingredient_id": "spaprika"
+              },
+              {
+                "ingredient_id": "sturmeric"
+              },
+              {
+                "ingredient_id": "sgaram"
+              },
+              {
+                "ingredient_id": "scayenne"
+              },
+              {
+                "ingredient_id": "scinnamon"
+              },
+              {
+                "ingredient_id": "scardamom"
+              },
+              {
+                "ingredient_id": "sugar"
+              },
+              {
+                "ingredient_id": "ssalt"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "bcf-7",
+            "instruction": "Add canned tomatoes and cream; simmer to combine.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "tomatoes"
+              },
+              {
+                "ingredient_id": "cream"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      },
+      {
+        "id": "finish",
+        "name": "Finish",
+        "steps": [
+          {
+            "id": "bcf-8",
+            "instruction": "Add chicken and reserved juices to the sauce; simmer together for approximately 7–8 minutes.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "chicken"
+              }
+            ],
+            "time_minutes": 8,
+            "temperature_f": null,
+            "source_status": "verified"
+          },
+          {
+            "id": "bcf-9",
+            "instruction": "Stir in the remaining butter and adjust seasoning before serving.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "butter",
+                "quantity": 1.5,
+                "unit": "tbsp"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Fresh-aromatic alternative to Butter Chicken — Spice-Kit Version. The two recipes are maintained as separate entries; the original powdered garlic and ginger version has not been changed.",
+      "For 1.75 lb chicken, use 3 cloves minced fresh garlic and 1 tbsp finely grated fresh ginger in the marinade, plus the same amounts in the sauce. These are practical substitutions for the two ¾-tsp garlic-powder and ground-ginger entries, not exact flavor equivalents.",
+      "Marinade and sauce spice packets are represented as individual ingredients for precise scaling.",
+      "Onion standardized for convenience as approximately 1 cup diced onion per medium onion; the actual yield depends on onion size and dicing.",
+      "Cook Mode allocates the butter between the onion step and the finish; those step-specific amounts also rescale.",
+      "Cook fresh garlic and ginger briefly after the onion softens and before adding tomato paste and powdered spices. Garlic can turn bitter if browned.",
+      "Fresh garlic/ginger measurements and their extra sauté step are editorial adaptations; this variation has not yet been kitchen-tested."
+    ],
+    "history_notes": [],
+    "provenance": {
+      "reconstruction_status": "derived_variant_editorial_substitution",
+      "derived_from_recipe_id": "butter-chicken",
+      "source_conversations": [
+        "2026-08-13 butter chicken spice-kit planning",
+        "2025-10-30 butter chicken cook sequence"
+      ],
+      "editorial_policy": "Fresh aromatics and their quantities are newly suggested substitutions, not previously verified by cooking.",
+      "review_status": "not_kitchen_tested",
+      "quantity_policy": "All other quantities remain identical to butter-chicken; fresh garlic and ginger are reconstructed defaults."
+    }
+  },
+  {
+    "schema_version": 1,
+    "id": "butter-chicken",
+    "title": "Butter Chicken — Spice-Kit Version",
+    "recipe_type": "full_dish",
+    "tags": [
+      "chicken",
+      "indian-inspired",
+      "make-ahead"
+    ],
+    "standardization": {
+      "description": "1.75 lb chicken (spice kit designed for approximately 1.5–2 lb)",
+      "scale_basis": {
+        "ingredient_id": "chicken",
+        "quantity": 1.75,
+        "unit": "lb"
+      }
+    },
+    "time": {
+      "prep_minutes": 25,
+      "inactive_minutes": 60,
+      "cook_minutes": 40,
+      "total_minutes": 125
+    },
+    "yield_info": {
+      "servings": 6,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "pending_ingredient_brand_and_weight_review"
+    },
+    "ingredients": [
+      {
+        "id": "chicken",
+        "name": "Boneless skinless chicken thighs",
+        "quantity": 1.75,
+        "unit": "lb",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "yogurt",
+        "name": "Plain yogurt",
+        "quantity": 0.75,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "lemon",
+        "name": "Lemon juice",
+        "quantity": 1,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "mcumin",
+        "name": "Ground cumin (marinade)",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "mcoriander",
+        "name": "Ground coriander (marinade)",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "mpaprika",
+        "name": "Paprika (marinade)",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "mgaram",
+        "name": "Garam masala (marinade)",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "mturmeric",
+        "name": "Turmeric (marinade)",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "msalt",
+        "name": "Salt (marinade)",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "mgarlic",
+        "name": "Garlic powder (marinade)",
+        "quantity": 0.75,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "mginger",
+        "name": "Ground ginger (marinade)",
+        "quantity": 0.75,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "onion",
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "cup",
+        "preparation": "diced",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "tomato-paste",
+        "name": "Tomato paste",
+        "quantity": 3,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "tomatoes",
+        "name": "Canned tomatoes",
+        "quantity": 1,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "cream",
+        "name": "Heavy cream",
+        "quantity": 0.75,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "butter",
+        "name": "Unsalted butter",
+        "quantity": 4,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "scumin",
+        "name": "Ground cumin (sauce)",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "scoriander",
+        "name": "Ground coriander (sauce)",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "spaprika",
+        "name": "Paprika (sauce)",
+        "quantity": 1.25,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "sturmeric",
+        "name": "Turmeric (sauce)",
+        "quantity": 0.75,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "sgaram",
+        "name": "Garam masala (sauce)",
+        "quantity": 0.75,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "scayenne",
+        "name": "Cayenne (sauce)",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "scinnamon",
+        "name": "Cinnamon (sauce)",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "scardamom",
+        "name": "Ground cardamom (sauce)",
+        "quantity": 0.125,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "sgarlic",
+        "name": "Garlic powder (sauce)",
+        "quantity": 0.75,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "sginger",
+        "name": "Ground ginger (sauce)",
+        "quantity": 0.75,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "sugar",
+        "name": "Sugar (sauce)",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "ssalt",
+        "name": "Salt (sauce)",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      }
+    ],
+    "phases": [
+      {
+        "id": "marinade",
+        "name": "Marinade",
+        "steps": [
+          {
+            "id": "bc-1",
+            "instruction": "Combine the marinade spices with yogurt and lemon juice.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "mcumin"
+              },
+              {
+                "ingredient_id": "mcoriander"
+              },
+              {
+                "ingredient_id": "mpaprika"
+              },
+              {
+                "ingredient_id": "mgaram"
+              },
+              {
+                "ingredient_id": "mturmeric"
+              },
+              {
+                "ingredient_id": "msalt"
+              },
+              {
+                "ingredient_id": "mgarlic"
+              },
+              {
+                "ingredient_id": "mginger"
+              },
+              {
+                "ingredient_id": "yogurt"
+              },
+              {
+                "ingredient_id": "lemon"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "bc-2",
+            "instruction": "Coat the chicken in the marinade, refrigerate, and marinate (overnight is an established option).",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "chicken"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "verified"
+          }
+        ]
+      },
+      {
+        "id": "chicken",
+        "name": "Chicken",
+        "steps": [
+          {
+            "id": "bc-3",
+            "instruction": "Roast marinated chicken at 450°F until cooked through and 165°F internally; thicker thighs may take longer than the earlier 18–20 minute guideline.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "chicken"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": 450,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "bc-4",
+            "instruction": "Rest briefly, cut chicken into pieces, and reserve the pan juices.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "chicken"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "verified"
+          }
+        ]
+      },
+      {
+        "id": "sauce",
+        "name": "Sauce",
+        "steps": [
+          {
+            "id": "bc-5",
+            "instruction": "Melt the first portion of butter over medium heat and soften the diced onion.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "butter",
+                "quantity": 2.5,
+                "unit": "tbsp"
+              },
+              {
+                "ingredient_id": "onion"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "bc-6",
+            "instruction": "Add tomato paste and the sauce spices; cook briefly until fragrant.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "tomato-paste"
+              },
+              {
+                "ingredient_id": "scumin"
+              },
+              {
+                "ingredient_id": "scoriander"
+              },
+              {
+                "ingredient_id": "spaprika"
+              },
+              {
+                "ingredient_id": "sturmeric"
+              },
+              {
+                "ingredient_id": "sgaram"
+              },
+              {
+                "ingredient_id": "scayenne"
+              },
+              {
+                "ingredient_id": "scinnamon"
+              },
+              {
+                "ingredient_id": "scardamom"
+              },
+              {
+                "ingredient_id": "sgarlic"
+              },
+              {
+                "ingredient_id": "sginger"
+              },
+              {
+                "ingredient_id": "sugar"
+              },
+              {
+                "ingredient_id": "ssalt"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "bc-7",
+            "instruction": "Add canned tomatoes and cream; simmer to combine.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "tomatoes"
+              },
+              {
+                "ingredient_id": "cream"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      },
+      {
+        "id": "finish",
+        "name": "Finish",
+        "steps": [
+          {
+            "id": "bc-8",
+            "instruction": "Add chicken and reserved juices to the sauce; simmer together for approximately 7–8 minutes.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "chicken"
+              }
+            ],
+            "time_minutes": 8,
+            "temperature_f": null,
+            "source_status": "verified"
+          },
+          {
+            "id": "bc-9",
+            "instruction": "Stir in the remaining butter and adjust seasoning before serving.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "butter",
+                "quantity": 1.5,
+                "unit": "tbsp"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "This is the August 2026 spice-kit test formulation, not necessarily the single final best version of every earlier butter chicken iteration.",
+      "Marinade and sauce spice packets are represented as individual ingredients for precise scaling.",
+      "Onion standardized for convenience as approximately 1 cup diced onion per medium onion; the actual yield depends on onion size and dicing.",
+      "Cook Mode allocates the butter between the onion step and the finish; those step-specific amounts also rescale."
+    ],
+    "history_notes": [],
+    "provenance": {
+      "reconstruction_status": "mixed_verified_and_reconstructed",
+      "source_conversations": [
+        "2026-08-13 butter chicken spice-kit planning",
+        "2025-10-30 butter chicken cook sequence"
+      ],
+      "editorial_policy": "Do not treat reconstructed steps or unknown times/nutrition as sourced historical facts.",
+      "quantity_policy": "Existing archive quantities retained unless documented in editorial changes; reconstructed amounts explicitly labeled by ingredient."
+    }
+  },
+  {
+    "schema_version": 1,
+    "id": "chicken-pot-pie",
+    "title": "Chicken Pot Pie — Two Pies",
+    "recipe_type": "full_dish",
+    "tags": [
+      "chicken",
+      "comfort-food",
+      "make-ahead"
+    ],
+    "standardization": {
+      "description": "Two 9-inch double-crust pies",
+      "scale_basis": {
+        "ingredient_id": "pie-crusts",
+        "quantity": 4,
+        "unit": "each"
+      }
+    },
+    "time": {
+      "prep_minutes": 40,
+      "inactive_minutes": 0,
+      "cook_minutes": 60,
+      "total_minutes": 100
+    },
+    "yield_info": {
+      "servings": 12,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown",
+      "units": 2,
+      "unit_name": "9-inch pies"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "pending_ingredient_brand_and_weight_review"
+    },
+    "ingredients": [
+      {
+        "id": "potatoes",
+        "name": "Yukon Gold potatoes",
+        "quantity": 1,
+        "unit": "lb",
+        "preparation": "diced",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "butter",
+        "name": "Butter",
+        "quantity": 8,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "onion",
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "cup",
+        "preparation": "diced",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "celery",
+        "name": "Celery ribs",
+        "quantity": 1.5,
+        "unit": "cup",
+        "preparation": "diced",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "carrots",
+        "name": "Carrots",
+        "quantity": 1.5,
+        "unit": "cup",
+        "preparation": "diced",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "flour",
+        "name": "All-purpose flour",
+        "quantity": 0.6666666666666666,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "broth",
+        "name": "Chicken broth",
+        "quantity": 3.5,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "milk",
+        "name": "Whole milk",
+        "quantity": 1.25,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "thyme",
+        "name": "Thyme",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "garlic-powder",
+        "name": "Garlic powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "black-pepper",
+        "name": "Black pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "salt",
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "cooked-chicken",
+        "name": "Cooked shredded chicken",
+        "quantity": 4.75,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "notes": "Original range 4½–5 cups; 4¾ is a normalized midpoint",
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "peas",
+        "name": "Peas",
+        "quantity": 1.5,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "corn",
+        "name": "Corn",
+        "quantity": 1,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "pie-crusts",
+        "name": "9-inch pie crusts",
+        "quantity": 4,
+        "unit": "each",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "notes": "Two bottoms and two tops",
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "egg",
+        "name": "Egg",
+        "quantity": 1,
+        "unit": "each",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "egg-water",
+        "name": "Water for egg wash",
+        "quantity": 1,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      }
+    ],
+    "phases": [
+      {
+        "id": "prep",
+        "name": "Prepare",
+        "steps": [
+          {
+            "id": "cpp-1",
+            "instruction": "Prepare/shred cooked chicken; dice potatoes and vegetables.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "potatoes"
+              },
+              {
+                "ingredient_id": "onion"
+              },
+              {
+                "ingredient_id": "celery"
+              },
+              {
+                "ingredient_id": "carrots"
+              },
+              {
+                "ingredient_id": "cooked-chicken"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "cpp-2",
+            "instruction": "Parboil diced potatoes 5–7 minutes; drain.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "potatoes"
+              }
+            ],
+            "time_minutes": 7,
+            "temperature_f": null,
+            "source_status": "verified"
+          }
+        ]
+      },
+      {
+        "id": "filling",
+        "name": "Filling",
+        "steps": [
+          {
+            "id": "cpp-3",
+            "instruction": "Melt butter and soften onion, celery, and carrots.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "butter"
+              },
+              {
+                "ingredient_id": "onion"
+              },
+              {
+                "ingredient_id": "celery"
+              },
+              {
+                "ingredient_id": "carrots"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "cpp-4",
+            "instruction": "Stir in flour to make a roux; whisk in broth gradually, then milk, until thick.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "flour"
+              },
+              {
+                "ingredient_id": "broth"
+              },
+              {
+                "ingredient_id": "milk"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "verified"
+          },
+          {
+            "id": "cpp-5",
+            "instruction": "Season and combine gravy with chicken, potatoes, peas, and corn.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "thyme"
+              },
+              {
+                "ingredient_id": "garlic-powder"
+              },
+              {
+                "ingredient_id": "black-pepper"
+              },
+              {
+                "ingredient_id": "salt"
+              },
+              {
+                "ingredient_id": "cooked-chicken"
+              },
+              {
+                "ingredient_id": "potatoes"
+              },
+              {
+                "ingredient_id": "peas"
+              },
+              {
+                "ingredient_id": "corn"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "verified"
+          }
+        ]
+      },
+      {
+        "id": "assembly",
+        "name": "Assemble",
+        "steps": [
+          {
+            "id": "cpp-6",
+            "instruction": "Line each 9-inch pie plate with a bottom crust; no greasing needed.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "pie-crusts",
+                "quantity": 2,
+                "unit": "each"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "verified"
+          },
+          {
+            "id": "cpp-7",
+            "instruction": "Divide filling evenly among pie plates, add top crusts, seal, and cut steam vents.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "pie-crusts",
+                "quantity": 2,
+                "unit": "each"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "verified"
+          },
+          {
+            "id": "cpp-8",
+            "instruction": "Beat egg with 1 tbsp water and brush the tops.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "egg"
+              },
+              {
+                "ingredient_id": "egg-water"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "verified"
+          }
+        ]
+      },
+      {
+        "id": "bake",
+        "name": "Bake and Rest",
+        "steps": [
+          {
+            "id": "cpp-9",
+            "instruction": "Bake at 425°F for 20 minutes.",
+            "ingredient_uses": [],
+            "time_minutes": 20,
+            "temperature_f": 425,
+            "source_status": "verified"
+          },
+          {
+            "id": "cpp-10",
+            "instruction": "Reduce to 375°F and bake approximately 30–40 minutes more, watching browning. In the actual cook, tops browned rapidly: foil-covered at 20 minutes, lowered to 350°F, bottom rack, finished around 45 minutes total.",
+            "ingredient_uses": [],
+            "time_minutes": null,
+            "temperature_f": 375,
+            "source_status": "verified",
+            "warning": "Oven tends to brown the crust rapidly; watch early."
+          },
+          {
+            "id": "cpp-11",
+            "instruction": "Remove once the filling is bubbling and crust is done; rest uncovered 20–25 minutes to thicken.",
+            "ingredient_uses": [],
+            "time_minutes": 25,
+            "temperature_f": null,
+            "source_status": "verified"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Recipe uses 4½–5 cups cooked chicken; 4¾ cups is a midpoint used in the numeric field.",
+      "During actual September 2026 cook, filling looked thin when piping hot; resting thickens it.",
+      "Oven was notably hotter/browned faster than expected.",
+      "Vegetables normalized to diced volume: onion 1 cup, celery 1½ cups and carrots 1½ cups, approximately the original whole-vegetable counts. These are approximate editorial conversions.",
+      "Recipe-editor note: some ingredient quantities were filled in or normalized for practical cooking and are identified by quantity_origin in JSON; they were not all recovered verbatim from the original chat."
+    ],
+    "history_notes": [],
+    "provenance": {
+      "reconstruction_status": "mostly_verified",
+      "source_conversations": [
+        "2026-09-05 chicken pot pie cooking conversation"
+      ],
+      "editorial_policy": "Do not treat reconstructed steps or unknown times/nutrition as sourced historical facts.",
+      "quantity_policy": "Existing archive quantities retained unless documented in editorial changes; reconstructed amounts explicitly labeled by ingredient."
+    }
+  },
+  {
+    "schema_version": 1,
+    "id": "chocolate-chip-cookie-variation",
+    "title": "Chocolate Chip Cookie Variation",
+    "recipe_type": "dessert",
+    "tags": [
+      "cookies",
+      "baking"
+    ],
+    "standardization": {
+      "description": "One batch, approximately 28 cookies",
+      "scale_basis": {
+        "multiplier": 1
+      }
+    },
+    "time": {
+      "prep_minutes": 20,
+      "inactive_minutes": 0,
+      "cook_minutes": 11,
+      "total_minutes": 31
+    },
+    "yield_info": {
+      "servings": 28,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "Pending confirmed brands, weights, and quantities"
+    },
+    "ingredients": [
+      {
+        "id": "all-purpose-flour",
+        "name": "All-purpose flour",
+        "quantity": 1.75,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "light-brown-sugar",
+        "name": "Light brown sugar",
+        "quantity": 0.75,
+        "unit": "cup",
+        "preparation": "packed",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "granulated-sugar",
+        "name": "Granulated sugar",
+        "quantity": 0.5,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "butter",
+        "name": "Unsalted butter",
+        "quantity": 0.75,
+        "unit": "cup",
+        "preparation": "softened",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "egg",
+        "name": "Large egg",
+        "quantity": 1,
+        "unit": "each",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "egg-yolk",
+        "name": "Egg yolk",
+        "quantity": 1,
+        "unit": "each",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "vanilla",
+        "name": "Vanilla extract",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "baking-soda",
+        "name": "Baking soda",
+        "quantity": 0.75,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "salt",
+        "name": "Salt",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "semisweet-chocolate-chips",
+        "name": "Semisweet chocolate chips",
+        "quantity": 1,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      }
+    ],
+    "phases": [
+      {
+        "id": "mix-dough",
+        "name": "Mix dough",
+        "steps": [
+          {
+            "id": "chocolate-chip-cookie-variation-p1-s1",
+            "instruction": "Preheat oven to 350°F and line baking trays with parchment. Cream softened butter with both sugars for 2–3 minutes.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "butter"
+              },
+              {
+                "ingredient_id": "light-brown-sugar"
+              },
+              {
+                "ingredient_id": "granulated-sugar"
+              }
+            ],
+            "time_minutes": 5,
+            "temperature_f": 350,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "chocolate-chip-cookie-variation-p1-s2",
+            "instruction": "Beat in whole egg, extra yolk and vanilla.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "egg"
+              },
+              {
+                "ingredient_id": "egg-yolk"
+              },
+              {
+                "ingredient_id": "vanilla"
+              }
+            ],
+            "time_minutes": 2,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "chocolate-chip-cookie-variation-p1-s3",
+            "instruction": "In another bowl combine flour, baking soda and salt. Mix into wet ingredients just until combined, then fold in the candy or chips.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "all-purpose-flour"
+              },
+              {
+                "ingredient_id": "baking-soda"
+              },
+              {
+                "ingredient_id": "salt"
+              },
+              {
+                "ingredient_id": "semisweet-chocolate-chips"
+              }
+            ],
+            "time_minutes": 4,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      },
+      {
+        "id": "portion-and-bake",
+        "name": "Portion and bake",
+        "steps": [
+          {
+            "id": "chocolate-chip-cookie-variation-p2-s1",
+            "instruction": "Portion into evenly sized dough balls, spacing them about 2 inches apart; chill 15–20 minutes if dough is too soft.",
+            "ingredient_uses": [],
+            "time_minutes": 7,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "chocolate-chip-cookie-variation-p2-s2",
+            "instruction": "Bake at 350°F for roughly 10–12 minutes until edges are set; centers may remain soft. Cool 5 minutes on trays, then transfer to a rack.",
+            "ingredient_uses": [],
+            "time_minutes": 11,
+            "temperature_f": 350,
+            "source_status": "reconstructed"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "June 19, 2026: 28-cookie chocolate-chip variation; consider consolidating with M&M cookies as a formal variation later.",
+      "Butter, eggs, vanilla, soda, salt and bake settings are editorial reconstruction; flour, sugars and mix-in amounts came from prior Kitchen Notes archive.",
+      "Use same cookie dough with M&Ms or chocolate chips; these remain separate entries at your request.",
+      "Recipe-editor note: some ingredient quantities were filled in or normalized for practical cooking and are identified by quantity_origin in JSON; they were not all recovered verbatim from the original chat."
+    ],
+    "history_notes": [],
+    "provenance": {
+      "status": "historical_conversation_plus_editorial_reconstruction",
+      "source": "Existing Kitchen Notes historical archive; quantities absent from archive estimated for practical cooking",
+      "review_status": "editorial_defaults_not_tested",
+      "quantity_policy": "Existing archive quantities retained unless documented in editorial changes; reconstructed amounts explicitly labeled by ingredient."
+    }
+  },
+  {
+    "schema_version": 1,
+    "id": "croque-monsieur-sliders",
+    "title": "Croque Monsieur Hawaiian Roll Sliders",
+    "recipe_type": "full_dish",
+    "tags": [
+      "sliders",
+      "ham",
+      "make-ahead"
+    ],
+    "standardization": {
+      "description": "12 Hawaiian-roll sliders, with cheesy béchamel",
+      "scale_basis": {
+        "ingredient_id": "hawaiian-rolls",
+        "quantity": 12,
+        "unit": "each"
+      }
+    },
+    "time": {
+      "prep_minutes": 20,
+      "inactive_minutes": 0,
+      "cook_minutes": 15,
+      "total_minutes": 35
+    },
+    "yield_info": {
+      "servings": 12,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "Pending confirmed brands, weights, and quantities"
+    },
+    "ingredients": [
+      {
+        "id": "hawaiian-rolls",
+        "name": "Hawaiian rolls",
+        "quantity": 12,
+        "unit": "each",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "ham",
+        "name": "Thinly sliced deli ham",
+        "quantity": 12,
+        "unit": "oz",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "cheese",
+        "name": "Swiss cheese slices",
+        "quantity": 6,
+        "unit": "slice",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "butter-b-chamel",
+        "name": "Unsalted butter (sauce)",
+        "quantity": 2,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "flour",
+        "name": "All-purpose flour (sauce)",
+        "quantity": 2,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "milk",
+        "name": "Milk (sauce)",
+        "quantity": 0.75,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "cheese-sauce",
+        "name": "Shredded Gruyère or Swiss (sauce)",
+        "quantity": 0.5,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "mustard",
+        "name": "Dijon mustard",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": true,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "top-butter",
+        "name": "Melted butter for tops",
+        "quantity": 1,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": true,
+        "quantity_origin": "reconstructed_default"
+      }
+    ],
+    "phases": [
+      {
+        "id": "cheese-sauce",
+        "name": "Cheese sauce",
+        "steps": [
+          {
+            "id": "croque-monsieur-sliders-p1-s1",
+            "instruction": "Melt sauce butter over medium-low heat. Whisk in flour and cook about 1 minute without browning.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "butter-b-chamel"
+              },
+              {
+                "ingredient_id": "flour"
+              }
+            ],
+            "time_minutes": 3,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "croque-monsieur-sliders-p1-s2",
+            "instruction": "Gradually whisk in milk until smooth and thickened, about 3–4 minutes. Remove from heat, stir in shredded cheese until melted; add Dijon if desired. Let cool slightly before assembling.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "milk"
+              },
+              {
+                "ingredient_id": "cheese-sauce"
+              },
+              {
+                "ingredient_id": "mustard"
+              }
+            ],
+            "time_minutes": 5,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      },
+      {
+        "id": "assemble",
+        "name": "Assemble",
+        "steps": [
+          {
+            "id": "croque-monsieur-sliders-p2-s1",
+            "instruction": "Slice each connected sheet of rolls horizontally. Layer ham and cheese slices across bottom halves, then spread with thick cheese sauce. Replace roll tops.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "hawaiian-rolls"
+              },
+              {
+                "ingredient_id": "ham"
+              },
+              {
+                "ingredient_id": "cheese"
+              },
+              {
+                "ingredient_id": "cheese-sauce"
+              }
+            ],
+            "time_minutes": 8,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "croque-monsieur-sliders-p2-s2",
+            "instruction": "Brush tops with melted butter if desired. Cover and refrigerate if preparing early; do not leave ham or cheese out during the game.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "top-butter"
+              }
+            ],
+            "time_minutes": 3,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      },
+      {
+        "id": "bake",
+        "name": "Bake",
+        "steps": [
+          {
+            "id": "croque-monsieur-sliders-p3-s1",
+            "instruction": "Bake at 350°F for 12–15 minutes, loosely covered for the first 8–10 minutes if tops brown quickly; uncover at end to brown. Serve hot.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "hawaiian-rolls"
+              }
+            ],
+            "time_minutes": 15,
+            "temperature_f": 350,
+            "source_status": "reconstructed"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "For football-Sunday prep: prepare sauce and toppings before kickoff, keep assembled sliders covered in the refrigerator, then bake after the game.",
+      "Exact historical ratios not recovered; sauce ingredients and baking temperature are suitable editorial defaults.",
+      "Recipe-editor note: some ingredient quantities were filled in or normalized for practical cooking and are identified by quantity_origin in JSON; they were not all recovered verbatim from the original chat."
+    ],
+    "history_notes": [],
+    "provenance": {
+      "status": "historical_conversation_plus_editorial_reconstruction",
+      "source": "Existing Kitchen Notes historical archive; quantities absent from archive estimated for practical cooking",
+      "review_status": "editorial_defaults_not_tested",
+      "quantity_policy": "Existing archive quantities retained unless documented in editorial changes; reconstructed amounts explicitly labeled by ingredient."
+    }
+  },
+  {
+    "schema_version": 1,
+    "id": "quick-alfredo-sauce",
+    "title": "Easy Alfredo Sauce",
+    "recipe_type": "sauce",
+    "tags": [
+      "pasta",
+      "sauce"
+    ],
+    "standardization": {
+      "description": "Sauce for approximately 1 lb cooked pasta",
+      "scale_basis": {
+        "multiplier": 1
+      }
+    },
+    "time": {
+      "prep_minutes": 5,
+      "inactive_minutes": 0,
+      "cook_minutes": 11,
+      "total_minutes": 16
+    },
+    "yield_info": {
+      "servings": 6,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "Pending confirmed brands, weights, and quantities"
+    },
+    "ingredients": [
+      {
+        "id": "butter",
+        "name": "Unsalted butter",
+        "quantity": 4,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "heavy-cream",
+        "name": "Heavy cream",
+        "quantity": 1.5,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "parmesan",
+        "name": "Finely grated Parmesan",
+        "quantity": 1.5,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "garlic",
+        "name": "Garlic",
+        "quantity": 2,
+        "unit": "clove",
+        "preparation": "minced",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "salt",
+        "name": "Salt",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "black-pepper",
+        "name": "Black pepper",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "pasta-water",
+        "name": "Reserved pasta cooking water",
+        "quantity": 0.25,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "manual",
+        "optional": true,
+        "quantity_origin": "reconstructed_default"
+      }
+    ],
+    "phases": [
+      {
+        "id": "simmer-sauce",
+        "name": "Simmer sauce",
+        "steps": [
+          {
+            "id": "quick-alfredo-sauce-p1-s1",
+            "instruction": "Melt butter over medium-low heat. Add minced garlic and cook gently for 30–60 seconds without browning.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "butter"
+              },
+              {
+                "ingredient_id": "garlic"
+              }
+            ],
+            "time_minutes": 2,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "quick-alfredo-sauce-p1-s2",
+            "instruction": "Pour in cream; warm at a gentle simmer for 3–4 minutes, stirring. Avoid rapid boiling.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "heavy-cream"
+              }
+            ],
+            "time_minutes": 4,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      },
+      {
+        "id": "finish",
+        "name": "Finish",
+        "steps": [
+          {
+            "id": "quick-alfredo-sauce-p2-s1",
+            "instruction": "Turn heat to low or off. Add Parmesan a handful at a time, stirring until melted and smooth.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "parmesan"
+              }
+            ],
+            "time_minutes": 3,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "quick-alfredo-sauce-p2-s2",
+            "instruction": "Season lightly, tasting before adding salt; loosen with reserved pasta water a tablespoon at a time if needed. Toss with hot pasta immediately.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "salt"
+              },
+              {
+                "ingredient_id": "black-pepper"
+              },
+              {
+                "ingredient_id": "pasta-water"
+              }
+            ],
+            "time_minutes": 2,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Freshly grated Parmesan melts more smoothly than shelf-stable pre-grated cheese. All amounts reconstructed as a simple cream-based Alfredo, not a claim of the exact original.",
+      "Recipe-editor note: some ingredient quantities were filled in or normalized for practical cooking and are identified by quantity_origin in JSON; they were not all recovered verbatim from the original chat."
+    ],
+    "history_notes": [],
+    "provenance": {
+      "status": "historical_conversation_plus_editorial_reconstruction",
+      "source": "Existing Kitchen Notes historical archive; quantities absent from archive estimated for practical cooking",
+      "review_status": "editorial_defaults_not_tested",
+      "quantity_policy": "Existing archive quantities retained unless documented in editorial changes; reconstructed amounts explicitly labeled by ingredient."
+    }
+  },
+  {
+    "schema_version": 1,
+    "id": "gin-and-tonic",
+    "title": "Gin and Tonic",
+    "recipe_type": "drink",
+    "tags": [
+      "cocktail",
+      "drink"
+    ],
+    "standardization": {
+      "description": "One drink; 1 part gin to 2 parts tonic",
+      "scale_basis": {
+        "multiplier": 1
+      }
+    },
+    "time": {
+      "prep_minutes": 2,
+      "inactive_minutes": 0,
+      "cook_minutes": 0,
+      "total_minutes": 2
+    },
+    "yield_info": {
+      "servings": 1,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "Pending confirmed brands, weights, and quantities"
+    },
+    "ingredients": [
+      {
+        "id": "gin",
+        "name": "Gin",
+        "quantity": 2,
+        "unit": "fl oz",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "tonic-water",
+        "name": "Chilled tonic water",
+        "quantity": 4,
+        "unit": "fl oz",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "ice",
+        "name": "Ice",
+        "quantity": 1,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "lime-wedge",
+        "name": "Lime wedge",
+        "quantity": 1,
+        "unit": "each",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      }
+    ],
+    "phases": [
+      {
+        "id": "mix",
+        "name": "Mix",
+        "steps": [
+          {
+            "id": "gin-and-tonic-p1-s1",
+            "instruction": "Fill a highball glass with ice. Pour gin over ice.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "ice"
+              },
+              {
+                "ingredient_id": "gin"
+              }
+            ],
+            "time_minutes": 1,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "gin-and-tonic-p1-s2",
+            "instruction": "Top with chilled tonic, stir gently just once or twice to preserve carbonation. Garnish with lime wedge and squeeze lightly if desired.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "tonic-water"
+              },
+              {
+                "ingredient_id": "lime-wedge"
+              }
+            ],
+            "time_minutes": 1,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "This 2:4 fl oz ratio is a practical editorial default; the exact earlier preferred ratio was not preserved. Tonic water carbohydrates vary greatly by brand (regular vs diet).",
+      "Recipe-editor note: some ingredient quantities were filled in or normalized for practical cooking and are identified by quantity_origin in JSON; they were not all recovered verbatim from the original chat."
+    ],
+    "history_notes": [],
+    "provenance": {
+      "status": "historical_conversation_plus_editorial_reconstruction",
+      "source": "Existing Kitchen Notes historical archive; quantities absent from archive estimated for practical cooking",
+      "review_status": "editorial_defaults_not_tested",
+      "quantity_policy": "Existing archive quantities retained unless documented in editorial changes; reconstructed amounts explicitly labeled by ingredient."
+    }
+  },
+  {
+    "schema_version": 1,
+    "id": "grilled-hamburgers",
+    "title": "Grilled 80/20 Hamburgers",
+    "recipe_type": "full_dish",
+    "tags": [
+      "grill",
+      "beef",
+      "burgers"
+    ],
+    "standardization": {
+      "description": "Four 6-oz burgers from 1.5 lb beef",
+      "scale_basis": {
+        "ingredient_id": "80-20-ground-beef",
+        "quantity": 1.5,
+        "unit": "lb"
+      }
+    },
+    "time": {
+      "prep_minutes": 10,
+      "inactive_minutes": 0,
+      "cook_minutes": 13,
+      "total_minutes": 23
+    },
+    "yield_info": {
+      "servings": 4,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "Pending confirmed brands, weights, and quantities"
+    },
+    "ingredients": [
+      {
+        "id": "80-20-ground-beef",
+        "name": "80/20 ground beef",
+        "quantity": 1.5,
+        "unit": "lb",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "kosher-salt",
+        "name": "Diamond Crystal kosher salt",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "black-pepper",
+        "name": "Freshly ground black pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "cheese-slices",
+        "name": "Cheese slices",
+        "quantity": 4,
+        "unit": "slice",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": true,
+        "quantity_origin": "reconstructed_default"
+      }
+    ],
+    "phases": [
+      {
+        "id": "shape-and-season",
+        "name": "Shape and season",
+        "steps": [
+          {
+            "id": "grilled-hamburgers-p1-s1",
+            "instruction": "Gently form equal patties about 6 oz each (the number depends on how much beef you are using), slightly wider than buns with a shallow center dimple; refrigerate while grill heats.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "80-20-ground-beef"
+              }
+            ],
+            "time_minutes": 8,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "grilled-hamburgers-p1-s2",
+            "instruction": "Season patties on both sides just before grilling.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "kosher-salt"
+              },
+              {
+                "ingredient_id": "black-pepper"
+              }
+            ],
+            "time_minutes": 2,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      },
+      {
+        "id": "grill",
+        "name": "Grill",
+        "steps": [
+          {
+            "id": "grilled-hamburgers-p2-s1",
+            "instruction": "Grill over medium-high direct heat, flipping once. Move to indirect heat if outsides cook too quickly; cook ground beef to 160°F.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "80-20-ground-beef"
+              }
+            ],
+            "time_minutes": 10,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "grilled-hamburgers-p2-s2",
+            "instruction": "Add cheese during the final minute or so and close grill lid briefly until melted. Rest a few minutes before serving.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "cheese-slices"
+              }
+            ],
+            "time_minutes": 3,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Do not confuse this with the separate historical discussion of SIX ⅓-lb patties (2 lb total).",
+      "Salt amount assumes Diamond Crystal kosher salt; Morton kosher is denser—use roughly half as much by volume and adjust to taste.",
+      "Recipe-editor note: some ingredient quantities were filled in or normalized for practical cooking and are identified by quantity_origin in JSON; they were not all recovered verbatim from the original chat."
+    ],
+    "history_notes": [],
+    "provenance": {
+      "status": "historical_conversation_plus_editorial_reconstruction",
+      "source": "Existing Kitchen Notes historical archive; quantities absent from archive estimated for practical cooking",
+      "review_status": "editorial_defaults_not_tested",
+      "quantity_policy": "Existing archive quantities retained unless documented in editorial changes; reconstructed amounts explicitly labeled by ingredient."
+    }
+  },
+  {
+    "schema_version": 1,
+    "id": "ground-beef-taco-seasoning",
+    "title": "Ground Beef Taco Seasoning",
+    "recipe_type": "seasoning",
+    "tags": [
+      "tacos",
+      "beef",
+      "seasoning"
+    ],
+    "standardization": {
+      "description": "Seasoning for 1 lb ground beef",
+      "scale_basis": {
+        "ingredient_id": "ground-beef",
+        "quantity": 1,
+        "unit": "lb"
+      }
+    },
+    "time": {
+      "prep_minutes": 3,
+      "inactive_minutes": 0,
+      "cook_minutes": 12,
+      "total_minutes": 15
+    },
+    "yield_info": {
+      "servings": 5,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "Pending confirmed brands, weights, and quantities"
+    },
+    "ingredients": [
+      {
+        "id": "ground-beef",
+        "name": "Ground beef",
+        "quantity": 1,
+        "unit": "lb",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "chili-powder",
+        "name": "Chili powder",
+        "quantity": 1,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "ground-cumin",
+        "name": "Ground cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "paprika",
+        "name": "Paprika",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "garlic-powder",
+        "name": "Garlic powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "onion-powder",
+        "name": "Onion powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "salt",
+        "name": "Kosher salt",
+        "quantity": 0.75,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "water",
+        "name": "Water",
+        "quantity": 0.3333333333,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      }
+    ],
+    "phases": [
+      {
+        "id": "brown",
+        "name": "Brown",
+        "steps": [
+          {
+            "id": "ground-beef-taco-seasoning-p1-s1",
+            "instruction": "Brown the beef over medium-high heat, breaking it up into small crumbles; drain only excessive fat.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "ground-beef"
+              }
+            ],
+            "time_minutes": 8,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      },
+      {
+        "id": "season-and-simmer",
+        "name": "Season and simmer",
+        "steps": [
+          {
+            "id": "ground-beef-taco-seasoning-p2-s1",
+            "instruction": "Mix the seasonings, add them with the water and simmer, stirring, until the meat is coated and most liquid evaporates.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "chili-powder"
+              },
+              {
+                "ingredient_id": "ground-cumin"
+              },
+              {
+                "ingredient_id": "paprika"
+              },
+              {
+                "ingredient_id": "garlic-powder"
+              },
+              {
+                "ingredient_id": "onion-powder"
+              },
+              {
+                "ingredient_id": "salt"
+              },
+              {
+                "ingredient_id": "water"
+              }
+            ],
+            "time_minutes": 4,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Onions and peppers were cooked and served SEPARATELY for taco/burrito assembly, not mixed into quesadilla filling.",
+      "The onion-and-pepper mixture is a separate component served alongside, not included in the quesadilla filling.",
+      "All spice quantities here are editorial defaults, not recovered verbatim.",
+      "Recipe-editor note: some ingredient quantities were filled in or normalized for practical cooking and are identified by quantity_origin in JSON; they were not all recovered verbatim from the original chat."
+    ],
+    "history_notes": [],
+    "provenance": {
+      "status": "historical_conversation_plus_editorial_reconstruction",
+      "source": "Existing Kitchen Notes historical archive; quantities absent from archive estimated for practical cooking",
+      "review_status": "editorial_defaults_not_tested",
+      "quantity_policy": "Existing archive quantities retained unless documented in editorial changes; reconstructed amounts explicitly labeled by ingredient."
+    }
+  },
+  {
+    "schema_version": 1,
+    "id": "m-and-m-cookies",
+    "title": "M&M Cookies",
+    "recipe_type": "dessert",
+    "tags": [
+      "cookies",
+      "baking"
+    ],
+    "standardization": {
+      "description": "One batch, approximately 24 cookies",
+      "scale_basis": {
+        "multiplier": 1
+      }
+    },
+    "time": {
+      "prep_minutes": 20,
+      "inactive_minutes": 0,
+      "cook_minutes": 11,
+      "total_minutes": 31
+    },
+    "yield_info": {
+      "servings": 24,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "Pending confirmed brands, weights, and quantities"
+    },
+    "ingredients": [
+      {
+        "id": "all-purpose-flour",
+        "name": "All-purpose flour",
+        "quantity": 1.75,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "light-brown-sugar",
+        "name": "Light brown sugar",
+        "quantity": 0.75,
+        "unit": "cup",
+        "preparation": "packed",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "granulated-sugar",
+        "name": "Granulated sugar",
+        "quantity": 0.5,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "butter",
+        "name": "Unsalted butter",
+        "quantity": 0.75,
+        "unit": "cup",
+        "preparation": "softened",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "egg",
+        "name": "Large egg",
+        "quantity": 1,
+        "unit": "each",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "egg-yolk",
+        "name": "Egg yolk",
+        "quantity": 1,
+        "unit": "each",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "vanilla",
+        "name": "Vanilla extract",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "baking-soda",
+        "name": "Baking soda",
+        "quantity": 0.75,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "salt",
+        "name": "Salt",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "m-ms",
+        "name": "M&Ms",
+        "quantity": 1,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      }
+    ],
+    "phases": [
+      {
+        "id": "mix-dough",
+        "name": "Mix dough",
+        "steps": [
+          {
+            "id": "m-and-m-cookies-p1-s1",
+            "instruction": "Preheat oven to 350°F and line baking trays with parchment. Cream softened butter with both sugars for 2–3 minutes.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "butter"
+              },
+              {
+                "ingredient_id": "light-brown-sugar"
+              },
+              {
+                "ingredient_id": "granulated-sugar"
+              }
+            ],
+            "time_minutes": 5,
+            "temperature_f": 350,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "m-and-m-cookies-p1-s2",
+            "instruction": "Beat in whole egg, extra yolk and vanilla.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "egg"
+              },
+              {
+                "ingredient_id": "egg-yolk"
+              },
+              {
+                "ingredient_id": "vanilla"
+              }
+            ],
+            "time_minutes": 2,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "m-and-m-cookies-p1-s3",
+            "instruction": "In another bowl combine flour, baking soda and salt. Mix into wet ingredients just until combined, then fold in the candy or chips.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "all-purpose-flour"
+              },
+              {
+                "ingredient_id": "baking-soda"
+              },
+              {
+                "ingredient_id": "salt"
+              },
+              {
+                "ingredient_id": "m-ms"
+              }
+            ],
+            "time_minutes": 4,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      },
+      {
+        "id": "portion-and-bake",
+        "name": "Portion and bake",
+        "steps": [
+          {
+            "id": "m-and-m-cookies-p2-s1",
+            "instruction": "Portion into evenly sized dough balls, spacing them about 2 inches apart; chill 15–20 minutes if dough is too soft.",
+            "ingredient_uses": [],
+            "time_minutes": 7,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "m-and-m-cookies-p2-s2",
+            "instruction": "Bake at 350°F for roughly 10–12 minutes until edges are set; centers may remain soft. Cool 5 minutes on trays, then transfer to a rack.",
+            "ingredient_uses": [],
+            "time_minutes": 11,
+            "temperature_f": 350,
+            "source_status": "reconstructed"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "June 2026: 24 cookies; approximately 573–578 g total carbohydrate estimated then, about 24g per cookie. The estimate does not replace missing complete ingredients.",
+      "Butter, eggs, vanilla, soda, salt and bake settings are editorial reconstruction; flour, sugars and mix-in amounts came from prior Kitchen Notes archive.",
+      "Use same cookie dough with M&Ms or chocolate chips; these remain separate entries at your request.",
+      "Recipe-editor note: some ingredient quantities were filled in or normalized for practical cooking and are identified by quantity_origin in JSON; they were not all recovered verbatim from the original chat."
+    ],
+    "history_notes": [],
+    "provenance": {
+      "status": "historical_conversation_plus_editorial_reconstruction",
+      "source": "Existing Kitchen Notes historical archive; quantities absent from archive estimated for practical cooking",
+      "review_status": "editorial_defaults_not_tested",
+      "quantity_policy": "Existing archive quantities retained unless documented in editorial changes; reconstructed amounts explicitly labeled by ingredient."
+    }
+  },
+  {
+    "schema_version": 1,
+    "id": "old-bay-perch",
+    "title": "Old Bay Perch Fillets",
+    "recipe_type": "full_dish",
+    "tags": [
+      "fish",
+      "seafood",
+      "skillet"
+    ],
+    "standardization": {
+      "description": "1 lb small perch fillets",
+      "scale_basis": {
+        "ingredient_id": "small-perch-fillets",
+        "quantity": 1,
+        "unit": "lb"
+      }
+    },
+    "time": {
+      "prep_minutes": 5,
+      "inactive_minutes": 0,
+      "cook_minutes": 7,
+      "total_minutes": 12
+    },
+    "yield_info": {
+      "servings": 4,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "Pending confirmed brands, weights, and quantities"
+    },
+    "ingredients": [
+      {
+        "id": "small-perch-fillets",
+        "name": "Small perch fillets",
+        "quantity": 1,
+        "unit": "lb",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "old-bay-seasoning",
+        "name": "Old Bay seasoning",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "oil-or-butter",
+        "name": "Neutral cooking oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "lemon-wedges",
+        "name": "Lemon wedges",
+        "quantity": 1,
+        "unit": "each",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": true,
+        "quantity_origin": "reconstructed_default"
+      }
+    ],
+    "phases": [
+      {
+        "id": "prepare",
+        "name": "Prepare",
+        "steps": [
+          {
+            "id": "old-bay-perch-p1-s1",
+            "instruction": "Pat small fillets very dry. Sprinkle both sides lightly with Old Bay; it contains salt, so taste before adding more.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "small-perch-fillets"
+              },
+              {
+                "ingredient_id": "old-bay-seasoning"
+              }
+            ],
+            "time_minutes": 4,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      },
+      {
+        "id": "pan-fry",
+        "name": "Pan-fry",
+        "steps": [
+          {
+            "id": "old-bay-perch-p2-s1",
+            "instruction": "Heat oil in a skillet over medium-high heat. Cook fillets in a single layer, usually 2–3 minutes per side depending on thickness, until opaque, flaky and 145°F internally.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "oil-or-butter"
+              },
+              {
+                "ingredient_id": "small-perch-fillets"
+              }
+            ],
+            "time_minutes": 6,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "old-bay-perch-p2-s2",
+            "instruction": "Serve immediately with a squeeze of lemon if desired.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "lemon-wedges"
+              }
+            ],
+            "time_minutes": 1,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Original fish were small, about chicken-tenderloin size. Old Bay strength and cooking time should be adjusted for thickness.",
+      "Recipe-editor note: some ingredient quantities were filled in or normalized for practical cooking and are identified by quantity_origin in JSON; they were not all recovered verbatim from the original chat."
+    ],
+    "history_notes": [],
+    "provenance": {
+      "status": "historical_conversation_plus_editorial_reconstruction",
+      "source": "Existing Kitchen Notes historical archive; quantities absent from archive estimated for practical cooking",
+      "review_status": "editorial_defaults_not_tested",
+      "quantity_policy": "Existing archive quantities retained unless documented in editorial changes; reconstructed amounts explicitly labeled by ingredient."
+    }
+  },
+  {
+    "schema_version": 1,
+    "id": "peanut-butter-cookies",
+    "title": "Peanut Butter Cookies",
+    "recipe_type": "dessert",
+    "tags": [
+      "cookie",
+      "dessert",
+      "baking"
+    ],
+    "standardization": {
+      "description": "One large batch; approximately 36–44 cookies",
+      "scale_basis": {
+        "multiplier": 1
+      }
+    },
+    "time": {
+      "prep_minutes": 20,
+      "inactive_minutes": 0,
+      "cook_minutes": 12,
+      "total_minutes": 32
+    },
+    "yield_info": {
+      "servings": 40,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown",
+      "units_range": [
+        36,
+        44
+      ],
+      "unit_name": "cookies"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "pending_ingredient_brand_and_weight_review"
+    },
+    "ingredients": [
+      {
+        "id": "butter",
+        "name": "Butter",
+        "quantity": 1,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "notes": "Softened for creaming",
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "white-sugar",
+        "name": "Granulated sugar",
+        "quantity": 1,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "brown-sugar",
+        "name": "Brown sugar",
+        "quantity": 1,
+        "unit": "cup",
+        "preparation": "packed",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "peanut-butter",
+        "name": "Creamy peanut butter",
+        "quantity": 2,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "eggs",
+        "name": "Eggs",
+        "quantity": 2,
+        "unit": "each",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "vanilla",
+        "name": "Vanilla extract",
+        "quantity": 2,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "flour",
+        "name": "All-purpose flour",
+        "quantity": 3,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "baking-soda",
+        "name": "Baking soda",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "baking-powder",
+        "name": "Baking powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "salt",
+        "name": "Salt",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      }
+    ],
+    "phases": [
+      {
+        "id": "prep",
+        "name": "Prepare",
+        "steps": [
+          {
+            "id": "pbc-1",
+            "instruction": "Preheat oven to 350°F.",
+            "ingredient_uses": [],
+            "time_minutes": null,
+            "temperature_f": 350,
+            "source_status": "verified"
+          }
+        ]
+      },
+      {
+        "id": "dough",
+        "name": "Make Dough",
+        "steps": [
+          {
+            "id": "pbc-2",
+            "instruction": "Cream butter with BOTH sugars for 2–3 minutes. Do not put sugar in the dry-ingredients bowl.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "butter"
+              },
+              {
+                "ingredient_id": "white-sugar"
+              },
+              {
+                "ingredient_id": "brown-sugar"
+              }
+            ],
+            "time_minutes": 3,
+            "temperature_f": null,
+            "source_status": "verified",
+            "warning": "Earlier mistake: sugars were accidentally added to the dry ingredients rather than creamed with butter."
+          },
+          {
+            "id": "pbc-3",
+            "instruction": "Beat in peanut butter, eggs, and vanilla.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "peanut-butter"
+              },
+              {
+                "ingredient_id": "eggs"
+              },
+              {
+                "ingredient_id": "vanilla"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "verified"
+          },
+          {
+            "id": "pbc-4",
+            "instruction": "In a separate bowl, mix flour, baking soda, baking powder, and salt. Combine with wet mixture just until mixed.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "flour"
+              },
+              {
+                "ingredient_id": "baking-soda"
+              },
+              {
+                "ingredient_id": "baking-powder"
+              },
+              {
+                "ingredient_id": "salt"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "verified"
+          }
+        ]
+      },
+      {
+        "id": "bake",
+        "name": "Shape and Bake",
+        "steps": [
+          {
+            "id": "pbc-5",
+            "instruction": "Roll portions into balls and flatten with a crisscross fork pattern.",
+            "ingredient_uses": [],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "verified"
+          },
+          {
+            "id": "pbc-6",
+            "instruction": "Bake at 350°F approximately 10–12 minutes.",
+            "ingredient_uses": [],
+            "time_minutes": 12,
+            "temperature_f": 350,
+            "source_status": "verified"
+          },
+          {
+            "id": "pbc-7",
+            "instruction": "Let cookies rest on the tray about 5 minutes.",
+            "ingredient_uses": [],
+            "time_minutes": 5,
+            "temperature_f": null,
+            "source_status": "verified"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Critical prevention: cream butter + white sugar + brown sugar first, before mixing in flour."
+    ],
+    "history_notes": [
+      "Earlier error: both sugars were mixed into the dry ingredients, potentially producing denser cookies."
+    ],
+    "provenance": {
+      "reconstruction_status": "verified_recalled_recipe",
+      "source_conversations": [
+        "2026-07-21 peanut butter cookie recall and correction"
+      ],
+      "editorial_policy": "Do not treat reconstructed steps or unknown times/nutrition as sourced historical facts.",
+      "quantity_policy": "Existing archive quantities retained unless documented in editorial changes; reconstructed amounts explicitly labeled by ingredient."
+    }
+  },
+  {
+    "schema_version": 1,
+    "id": "quick-chicken-parm",
+    "title": "Quick Chicken Parmesan with Fettuccine",
+    "recipe_type": "assembly",
+    "tags": [
+      "weeknight",
+      "chicken",
+      "semi-homemade",
+      "pasta"
+    ],
+    "standardization": {
+      "description": "7 breaded chicken patties, serves roughly a family dinner",
+      "scale_basis": {
+        "ingredient_id": "patties",
+        "quantity": 7,
+        "unit": "each"
+      }
+    },
+    "time": {
+      "prep_minutes": 5,
+      "inactive_minutes": 0,
+      "cook_minutes": 25,
+      "total_minutes": 30
+    },
+    "yield_info": {
+      "servings": 7,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "pending_ingredient_brand_and_weight_review"
+    },
+    "ingredients": [
+      {
+        "id": "patties",
+        "name": "Frozen breaded chicken breast patties",
+        "quantity": 7,
+        "unit": "each",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "notes": "7–8 used; numeric base is 7",
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "marinara",
+        "name": "Jarred marinara",
+        "quantity": 3,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "notes": "Jar size not documented; cook mode cannot infer total carb values",
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "mozzarella",
+        "name": "Mozzarella",
+        "quantity": 10,
+        "unit": "oz",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "notes": "Original 8–12 oz; midpoint 10 oz",
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "parmesan",
+        "name": "Parmesan cheese",
+        "quantity": 0.25,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": true,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "fettuccine",
+        "name": "Dry fettuccine",
+        "quantity": 1,
+        "unit": "lb",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "notes": "12 oz to 1 lb depending on pasta appetite",
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "pasta-water",
+        "name": "Reserved pasta cooking water",
+        "quantity": 0.25,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "manual",
+        "optional": false,
+        "notes": "Use more as needed",
+        "quantity_origin": "existing_archive"
+      }
+    ],
+    "phases": [
+      {
+        "id": "chicken",
+        "name": "Crisp and Top Chicken",
+        "steps": [
+          {
+            "id": "qcp-1",
+            "instruction": "Bake frozen breaded chicken patties according to package instructions until crisp.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "patties"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "verified"
+          },
+          {
+            "id": "qcp-2",
+            "instruction": "Spoon sauce over each hot, crisp patty; top with mozzarella and optional Parmesan.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "marinara",
+                "quantity": 1,
+                "unit": "cup"
+              },
+              {
+                "ingredient_id": "mozzarella"
+              },
+              {
+                "ingredient_id": "parmesan"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "verified"
+          },
+          {
+            "id": "qcp-3",
+            "instruction": "Return to a hot oven briefly until cheese melts, or broil while watching carefully.",
+            "ingredient_uses": [],
+            "time_minutes": 5,
+            "temperature_f": 425,
+            "source_status": "verified"
+          }
+        ]
+      },
+      {
+        "id": "pasta",
+        "name": "Pasta",
+        "steps": [
+          {
+            "id": "qcp-4",
+            "instruction": "Boil fettuccine according to package directions, reserving pasta cooking water before draining.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "fettuccine"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "verified"
+          },
+          {
+            "id": "qcp-5",
+            "instruction": "Stir reserved pasta water into the remaining warmed marinara as needed, then toss with drained fettuccine until lightly coated.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "pasta-water",
+                "quantity": 0.25,
+                "unit": "cup"
+              },
+              {
+                "ingredient_id": "marinara",
+                "quantity": 2,
+                "unit": "cup"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "verified"
+          }
+        ]
+      },
+      {
+        "id": "finish",
+        "name": "Serve",
+        "steps": [
+          {
+            "id": "qcp-6",
+            "instruction": "Serve chicken parmesan with the lightly sauced fettuccine.",
+            "ingredient_uses": [],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Patty bake time and temperature depend on actual packaging; do not invent them.",
+      "Sauce jar size and quantity allocated to chicken versus pasta were not documented.",
+      "Marinara normalized to approximately 3 cups (about a 24-oz jar); ¼ cup Parmesan is an optional editorial default. Portion the sauce between chicken and pasta.",
+      "Recipe-editor note: some ingredient quantities were filled in or normalized for practical cooking and are identified by quantity_origin in JSON; they were not all recovered verbatim from the original chat."
+    ],
+    "history_notes": [],
+    "provenance": {
+      "reconstruction_status": "mostly_verified",
+      "source_conversations": [
+        "2026-09-24 Quick Chicken Parm Recipe"
+      ],
+      "editorial_policy": "Do not treat reconstructed steps or unknown times/nutrition as sourced historical facts.",
+      "quantity_policy": "Existing archive quantities retained unless documented in editorial changes; reconstructed amounts explicitly labeled by ingredient."
+    }
+  },
+  {
+    "schema_version": 1,
+    "id": "ground-beef-mostaccioli",
+    "title": "Quick Ground Beef Mostaccioli",
+    "recipe_type": "full_dish",
+    "tags": [
+      "pasta",
+      "beef",
+      "weeknight"
+    ],
+    "standardization": {
+      "description": "Fast stovetop batch: 1 lb pasta + 1 lb beef",
+      "scale_basis": {
+        "ingredient_id": "mostaccioli-pasta",
+        "quantity": 1,
+        "unit": "lb"
+      }
+    },
+    "time": {
+      "prep_minutes": 5,
+      "inactive_minutes": 0,
+      "cook_minutes": 20,
+      "total_minutes": 25
+    },
+    "yield_info": {
+      "servings": 7,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "Pending confirmed brands, weights, and quantities"
+    },
+    "ingredients": [
+      {
+        "id": "mostaccioli-pasta",
+        "name": "Dry mostaccioli pasta",
+        "quantity": 1,
+        "unit": "lb",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "ground-beef",
+        "name": "Ground beef",
+        "quantity": 1,
+        "unit": "lb",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "marinara-sauce",
+        "name": "Jarred marinara",
+        "quantity": 3,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "cheese",
+        "name": "Shredded mozzarella",
+        "quantity": 1.5,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": true,
+        "quantity_origin": "reconstructed_default"
+      }
+    ],
+    "phases": [
+      {
+        "id": "cook-simultaneously",
+        "name": "Cook simultaneously",
+        "steps": [
+          {
+            "id": "ground-beef-mostaccioli-p1-s1",
+            "instruction": "Bring a large pot of salted water to a boil. Cook mostaccioli according to package instructions until al dente; drain.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "mostaccioli-pasta"
+              }
+            ],
+            "time_minutes": 11,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "ground-beef-mostaccioli-p1-s2",
+            "instruction": "Meanwhile brown ground beef in a deep skillet, breaking into small pieces. Drain excess fat if needed.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "ground-beef"
+              }
+            ],
+            "time_minutes": 9,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      },
+      {
+        "id": "sauce-and-finish",
+        "name": "Sauce and finish",
+        "steps": [
+          {
+            "id": "ground-beef-mostaccioli-p2-s1",
+            "instruction": "Pour marinara into the beef skillet and simmer until hot. Stir in drained pasta and toss thoroughly.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "marinara-sauce"
+              },
+              {
+                "ingredient_id": "mostaccioli-pasta"
+              }
+            ],
+            "time_minutes": 3,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "ground-beef-mostaccioli-p2-s2",
+            "instruction": "Optionally scatter mozzarella over top, cover briefly on low heat until melted, then serve. No oven required.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "cheese"
+              }
+            ],
+            "time_minutes": 3,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "September 2026 request emphasized bare minimum cooking time; distinguish stovetop quick version from baked casserole if reconstructed later.",
+      "This is the rapid stovetop version, not a long-baked casserole. Quantities are reasonable editorial defaults.",
+      "Recipe-editor note: some ingredient quantities were filled in or normalized for practical cooking and are identified by quantity_origin in JSON; they were not all recovered verbatim from the original chat."
+    ],
+    "history_notes": [],
+    "provenance": {
+      "status": "historical_conversation_plus_editorial_reconstruction",
+      "source": "Existing Kitchen Notes historical archive; quantities absent from archive estimated for practical cooking",
+      "review_status": "editorial_defaults_not_tested",
+      "quantity_policy": "Existing archive quantities retained unless documented in editorial changes; reconstructed amounts explicitly labeled by ingredient."
+    }
+  },
+  {
+    "schema_version": 1,
+    "id": "shrimp-cocktail-sauce",
+    "title": "Quick Shrimp Cocktail Sauce",
+    "recipe_type": "sauce",
+    "tags": [
+      "seafood",
+      "dip"
+    ],
+    "standardization": {
+      "description": "Approximately 1 cup cocktail sauce",
+      "scale_basis": {
+        "multiplier": 1
+      }
+    },
+    "time": {
+      "prep_minutes": 3,
+      "inactive_minutes": 10,
+      "cook_minutes": 0,
+      "total_minutes": 13
+    },
+    "yield_info": {
+      "servings": 8,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "Pending confirmed brands, weights, and quantities"
+    },
+    "ingredients": [
+      {
+        "id": "ketchup",
+        "name": "Ketchup",
+        "quantity": 0.75,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "prepared-horseradish",
+        "name": "Prepared horseradish",
+        "quantity": 2,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "lemon-juice",
+        "name": "Lemon juice",
+        "quantity": 1,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "worcestershire-sauce",
+        "name": "Worcestershire sauce",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      }
+    ],
+    "phases": [
+      {
+        "id": "mix",
+        "name": "Mix",
+        "steps": [
+          {
+            "id": "shrimp-cocktail-sauce-p1-s1",
+            "instruction": "Stir ketchup, horseradish, lemon juice and Worcestershire until smooth. Taste and adjust horseradish for heat.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "ketchup"
+              },
+              {
+                "ingredient_id": "prepared-horseradish"
+              },
+              {
+                "ingredient_id": "lemon-juice"
+              },
+              {
+                "ingredient_id": "worcestershire-sauce"
+              }
+            ],
+            "time_minutes": 3,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "shrimp-cocktail-sauce-p1-s2",
+            "instruction": "Chill briefly if time permits; serve cold with cooked shrimp.",
+            "ingredient_uses": [],
+            "time_minutes": 10,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "All ingredient quantities are editorial defaults tuned to the earlier requested yield of approximately one cup.",
+      "Recipe-editor note: some ingredient quantities were filled in or normalized for practical cooking and are identified by quantity_origin in JSON; they were not all recovered verbatim from the original chat."
+    ],
+    "history_notes": [],
+    "provenance": {
+      "status": "historical_conversation_plus_editorial_reconstruction",
+      "source": "Existing Kitchen Notes historical archive; quantities absent from archive estimated for practical cooking",
+      "review_status": "editorial_defaults_not_tested",
+      "quantity_policy": "Existing archive quantities retained unless documented in editorial changes; reconstructed amounts explicitly labeled by ingredient."
+    }
+  },
+  {
+    "schema_version": 1,
+    "id": "honey-mustard-sweet-potato-fries",
+    "title": "Sweeter Honey Mustard Dip for Sweet Potato Fries",
+    "recipe_type": "dip",
+    "tags": [
+      "dip",
+      "sweet-potatoes",
+      "quick"
+    ],
+    "standardization": {
+      "description": "One small batch of dip",
+      "scale_basis": {
+        "multiplier": 1
+      }
+    },
+    "time": {
+      "prep_minutes": 5,
+      "inactive_minutes": 0,
+      "cook_minutes": 0,
+      "total_minutes": 5
+    },
+    "yield_info": {
+      "servings": 4,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "pending_ingredient_brand_and_weight_review"
+    },
+    "ingredients": [
+      {
+        "id": "mayo",
+        "name": "Mayonnaise",
+        "quantity": 3,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "dijon",
+        "name": "Dijon mustard",
+        "quantity": 1,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "honey",
+        "name": "Honey",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "acid",
+        "name": "Lemon juice or apple cider vinegar",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "salt",
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "pinch",
+        "preparation": null,
+        "scale_mode": "to_taste",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "extra-honey",
+        "name": "Extra honey (optional, for sweeter dip)",
+        "quantity": 0.5,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": true,
+        "quantity_origin": "existing_archive"
+      }
+    ],
+    "phases": [
+      {
+        "id": "mix",
+        "name": "Mix",
+        "steps": [
+          {
+            "id": "hm-1",
+            "instruction": "Stir mayo, Dijon, honey, and lemon juice (or cider vinegar) together until smooth.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "mayo"
+              },
+              {
+                "ingredient_id": "dijon"
+              },
+              {
+                "ingredient_id": "honey"
+              },
+              {
+                "ingredient_id": "acid"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "hm-2",
+            "instruction": "Add a pinch of salt to taste.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "salt"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "hm-3",
+            "instruction": "Taste, and stir in the optional extra honey if you want a noticeably sweeter dip.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "extra-honey"
+              }
+            ],
+            "time_minutes": null,
+            "temperature_f": null,
+            "source_status": "verified"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "This is the September 11 revision, replacing the original mustard-forward version.",
+      "Recipe-editor note: some ingredient quantities were filled in or normalized for practical cooking and are identified by quantity_origin in JSON; they were not all recovered verbatim from the original chat."
+    ],
+    "history_notes": [
+      "Original version: 2 tbsp mayo + 2 tbsp Dijon + 1 tbsp honey with a splash of acid. User found it too mustard-heavy and not sweet enough.",
+      "Revised to 3 tbsp mayo, 1 tbsp Dijon, 1½ tbsp honey, ½ tsp acid, pinch salt, optional additional ½ tbsp honey."
+    ],
+    "provenance": {
+      "reconstruction_status": "verified_ingredients_reconstructed_method",
+      "source_conversations": [
+        "2026-08-28 Sweet Potato Fry Dips",
+        "2026-09-11 flavor correction"
+      ],
+      "editorial_policy": "Do not treat reconstructed steps or unknown times/nutrition as sourced historical facts.",
+      "quantity_policy": "Existing archive quantities retained unless documented in editorial changes; reconstructed amounts explicitly labeled by ingredient."
+    }
+  },
+  {
+    "schema_version": 1,
+    "id": "thai-peanut-chicken-noodles",
+    "title": "Thai Peanut Chicken Rice Noodles",
+    "recipe_type": "full_dish",
+    "tags": [
+      "chicken",
+      "thai-inspired",
+      "noodles"
+    ],
+    "standardization": {
+      "description": "3 lb chicken, 16 oz rice noodles; family-size batch",
+      "scale_basis": {
+        "ingredient_id": "boneless-skinless-chicken-thighs",
+        "quantity": 3,
+        "unit": "lb"
+      }
+    },
+    "time": {
+      "prep_minutes": 20,
+      "inactive_minutes": 35,
+      "cook_minutes": 25,
+      "total_minutes": 80
+    },
+    "yield_info": {
+      "servings": 8,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "Pending confirmed brands, weights, and quantities"
+    },
+    "ingredients": [
+      {
+        "id": "boneless-skinless-chicken-thighs",
+        "name": "Boneless skinless chicken thighs",
+        "quantity": 3,
+        "unit": "lb",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "plain-yogurt",
+        "name": "Plain yogurt",
+        "quantity": 1,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "soy-sauce-or-tamari",
+        "name": "Soy sauce or tamari (marinade)",
+        "quantity": 2,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "lime-juice-marinade",
+        "name": "Lime juice (marinade)",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "oil-marinade",
+        "name": "Neutral oil (marinade)",
+        "quantity": 1,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "sugar-marinade",
+        "name": "Sugar (marinade)",
+        "quantity": 1,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "garlic-cloves-marinade",
+        "name": "Garlic cloves (marinade)",
+        "quantity": 4,
+        "unit": "clove",
+        "preparation": "minced",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "fresh-ginger-marinade",
+        "name": "Fresh ginger (marinade)",
+        "quantity": 1,
+        "unit": "tbsp",
+        "preparation": "grated",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "rice-noodles",
+        "name": "Dry rice noodles",
+        "quantity": 16,
+        "unit": "oz",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "peanut-butter",
+        "name": "Peanut butter",
+        "quantity": 1,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "soy-sauce-sauce",
+        "name": "Soy sauce (sauce)",
+        "quantity": 0.5,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "water-sauce",
+        "name": "Water (sauce)",
+        "quantity": 0.5,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "lime-juice-sauce",
+        "name": "Lime juice (sauce)",
+        "quantity": 0.333333333333,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "brown-sugar",
+        "name": "Brown sugar",
+        "quantity": 0.25,
+        "unit": "cup",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "rice-vinegar",
+        "name": "Rice vinegar",
+        "quantity": 2,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "sesame-oil",
+        "name": "Sesame oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "fish-sauce",
+        "name": "Fish sauce (optional)",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": true,
+        "quantity_origin": "existing_archive"
+      },
+      {
+        "id": "vegetables-for-stir-frying",
+        "name": "Mixed vegetables (bell pepper, carrot, cabbage)",
+        "quantity": 4,
+        "unit": "cup",
+        "preparation": "thinly sliced",
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "stir-fry-oil",
+        "name": "Neutral oil for vegetables",
+        "quantity": 2,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      }
+    ],
+    "phases": [
+      {
+        "id": "marinate-chicken",
+        "name": "Marinate chicken",
+        "steps": [
+          {
+            "id": "thai-peanut-chicken-noodles-p1-s1",
+            "instruction": "Whisk yogurt, marinade soy sauce, lime juice, oil, sugar, garlic and ginger. Coat chicken; refrigerate at least 30 minutes or up to overnight.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "plain-yogurt"
+              },
+              {
+                "ingredient_id": "soy-sauce-or-tamari"
+              },
+              {
+                "ingredient_id": "lime-juice-marinade"
+              },
+              {
+                "ingredient_id": "oil-marinade"
+              },
+              {
+                "ingredient_id": "sugar-marinade"
+              },
+              {
+                "ingredient_id": "garlic-cloves-marinade"
+              },
+              {
+                "ingredient_id": "fresh-ginger-marinade"
+              },
+              {
+                "ingredient_id": "boneless-skinless-chicken-thighs"
+              }
+            ],
+            "time_minutes": 10,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      },
+      {
+        "id": "make-sauce-and-soak-noodles",
+        "name": "Make sauce and soak noodles",
+        "steps": [
+          {
+            "id": "thai-peanut-chicken-noodles-p2-s1",
+            "instruction": "Whisk all peanut sauce ingredients until smooth; if very thick, thin with a little extra warm water. Add optional fish sauce only if desired.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "peanut-butter"
+              },
+              {
+                "ingredient_id": "soy-sauce-sauce"
+              },
+              {
+                "ingredient_id": "water-sauce"
+              },
+              {
+                "ingredient_id": "lime-juice-sauce"
+              },
+              {
+                "ingredient_id": "brown-sugar"
+              },
+              {
+                "ingredient_id": "rice-vinegar"
+              },
+              {
+                "ingredient_id": "sesame-oil"
+              },
+              {
+                "ingredient_id": "fish-sauce"
+              }
+            ],
+            "time_minutes": 5,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "thai-peanut-chicken-noodles-p2-s2",
+            "instruction": "Soak rice noodles in hot tap water as package suggests, generally 25–60 minutes, until flexible but not mushy. Drain just before stir-frying.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "rice-noodles"
+              }
+            ],
+            "time_minutes": 35,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      },
+      {
+        "id": "cook-and-combine",
+        "name": "Cook and combine",
+        "steps": [
+          {
+            "id": "thai-peanut-chicken-noodles-p3-s1",
+            "instruction": "Roast chicken at 450°F for approximately 18–24 minutes until thickest pieces reach 165°F; rest and slice.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "boneless-skinless-chicken-thighs"
+              }
+            ],
+            "time_minutes": 22,
+            "temperature_f": 450,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "thai-peanut-chicken-noodles-p3-s2",
+            "instruction": "Heat stir-fry oil in a large skillet. Stir-fry vegetables until tender-crisp, then add soaked noodles and roughly three-quarters of peanut sauce. Toss over heat until noodles are fully tender.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "stir-fry-oil"
+              },
+              {
+                "ingredient_id": "vegetables-for-stir-frying"
+              },
+              {
+                "ingredient_id": "rice-noodles"
+              }
+            ],
+            "time_minutes": 7,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "thai-peanut-chicken-noodles-p3-s3",
+            "instruction": "Fold in sliced chicken and enough of the reserved sauce to coat. Serve immediately.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "boneless-skinless-chicken-thighs"
+              }
+            ],
+            "time_minutes": 2,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Source history also mentions 1¼ tsp garlic powder as substitute for four garlic cloves.",
+      "Yogurt and four-cup vegetables are reasonable editorial defaults; remaining amounts in the prior archive were retained.",
+      "Garlic substitution from prior conversation: about 1¼ tsp garlic powder for four cloves (adjust to taste). Use tamari or coconut aminos instead of soy sauce as desired, but sweetness/saltiness will vary.",
+      "Rice noodle soak time is package-dependent; finish cooking softened noodles in the hot skillet rather than assuming soaking alone makes them ready.",
+      "Recipe-editor note: some ingredient quantities were filled in or normalized for practical cooking and are identified by quantity_origin in JSON; they were not all recovered verbatim from the original chat."
+    ],
+    "history_notes": [],
+    "provenance": {
+      "status": "historical_conversation_plus_editorial_reconstruction",
+      "source": "Existing Kitchen Notes historical archive; quantities absent from archive estimated for practical cooking",
+      "review_status": "editorial_defaults_not_tested",
+      "quantity_policy": "Existing archive quantities retained unless documented in editorial changes; reconstructed amounts explicitly labeled by ingredient."
+    }
+  },
+  {
+    "schema_version": 1,
+    "id": "thin-top-round-fajitas",
+    "title": "Thin Top Round Beef Fajitas",
+    "recipe_type": "full_dish",
+    "tags": [
+      "beef",
+      "fajitas",
+      "skillet"
+    ],
+    "standardization": {
+      "description": "1.5 lb thin top round; meat-only fajita preparation",
+      "scale_basis": {
+        "ingredient_id": "thin-top-round-beef-steak",
+        "quantity": 1.5,
+        "unit": "lb"
+      }
+    },
+    "time": {
+      "prep_minutes": 8,
+      "inactive_minutes": 0,
+      "cook_minutes": 10,
+      "total_minutes": 18
+    },
+    "yield_info": {
+      "servings": 5,
+      "finished_weight_g": null,
+      "finished_weight_status": "unknown"
+    },
+    "nutrition": {
+      "total_carbs_g": null,
+      "carb_type": "total",
+      "estimate_quality": "not_calculated",
+      "calculation": "Pending confirmed brands, weights, and quantities"
+    },
+    "ingredients": [
+      {
+        "id": "thin-top-round-beef-steak",
+        "name": "Thin top round beef steak",
+        "quantity": 1.5,
+        "unit": "lb",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "kosher-salt",
+        "name": "Kosher salt",
+        "quantity": 0.75,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "black-pepper",
+        "name": "Black pepper",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "oil",
+        "name": "Neutral oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "lime-juice",
+        "name": "Lime juice",
+        "quantity": 2,
+        "unit": "tbsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": true,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "chili-powder",
+        "name": "Chili powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      },
+      {
+        "id": "ground-cumin",
+        "name": "Ground cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "preparation": null,
+        "scale_mode": "proportional",
+        "optional": false,
+        "quantity_origin": "reconstructed_default"
+      }
+    ],
+    "phases": [
+      {
+        "id": "season",
+        "name": "Season",
+        "steps": [
+          {
+            "id": "thin-top-round-fajitas-p1-s1",
+            "instruction": "If necessary, cut beef into short strips across the grain. Pat dry and toss with salt, pepper, chili powder, cumin and optional lime juice. Avoid a long acidic marinade with very thin steak.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "thin-top-round-beef-steak"
+              },
+              {
+                "ingredient_id": "kosher-salt"
+              },
+              {
+                "ingredient_id": "black-pepper"
+              },
+              {
+                "ingredient_id": "chili-powder"
+              },
+              {
+                "ingredient_id": "ground-cumin"
+              },
+              {
+                "ingredient_id": "lime-juice"
+              }
+            ],
+            "time_minutes": 8,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      },
+      {
+        "id": "sear",
+        "name": "Sear",
+        "steps": [
+          {
+            "id": "thin-top-round-fajitas-p2-s1",
+            "instruction": "Heat oil in a wide skillet until shimmering. Cook steak quickly in batches without crowding; thin slices may take about 1–2 minutes per side. For whole beef cuts, USDA recommends 145°F with a 3-minute rest.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "thin-top-round-beef-steak"
+              },
+              {
+                "ingredient_id": "oil"
+              }
+            ],
+            "time_minutes": 7,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          },
+          {
+            "id": "thin-top-round-fajitas-p2-s2",
+            "instruction": "Rest briefly, check grain direction and slice thinner if needed. Serve promptly so lean top round stays tender.",
+            "ingredient_uses": [
+              {
+                "ingredient_id": "thin-top-round-beef-steak"
+              }
+            ],
+            "time_minutes": 3,
+            "temperature_f": null,
+            "source_status": "reconstructed"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Actual original package weight was not preserved, so 1.5 lb is a convenient suggested baseline. Only the beef preparation is included, as originally requested.",
+      "Recipe-editor note: some ingredient quantities were filled in or normalized for practical cooking and are identified by quantity_origin in JSON; they were not all recovered verbatim from the original chat."
+    ],
+    "history_notes": [],
+    "provenance": {
+      "status": "historical_conversation_plus_editorial_reconstruction",
+      "source": "Existing Kitchen Notes historical archive; quantities absent from archive estimated for practical cooking",
+      "review_status": "editorial_defaults_not_tested",
+      "quantity_policy": "Existing archive quantities retained unless documented in editorial changes; reconstructed amounts explicitly labeled by ingredient."
+    }
+  }
+]

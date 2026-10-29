@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "recipes": [
+    {
+      "id": "bacon-cheeseburger-sliders",
+      "title": "Bacon Cheeseburger Sliders — Thin Patties",
+      "type": "full_dish",
+      "file": "recipes/bacon-cheeseburger-sliders.json",
+      "tags": [
+        "sliders",
+        "beef",
+        "bacon"
+      ]
+    },
+    {
+      "id": "baked-french-toast",
+      "title": "Baked French Toast — Quick or Overnight",
+      "type": "full_dish",
+      "file": "recipes/baked-french-toast.json",
+      "tags": [
+        "breakfast",
+        "baking",
+        "make-ahead"
+      ]
+    },
+    {
+      "id": "panko-chicken-tenderloins",
+      "title": "Baked Panko Chicken Tenderloins",
+      "type": "full_dish",
+      "file": "recipes/panko-chicken-tenderloins.json",
+      "tags": [
+        "chicken",
+        "breaded",
+        "oven"
+      ]
+    },
+    {
+      "id": "shredded-chuck-roast-tacos",
+      "title": "Braised Shredded Chuck Roast for Tacos",
+      "type": "full_dish",
+      "file": "recipes/shredded-chuck-roast-tacos.json",
+      "tags": [
+        "beef",
+        "tacos",
+        "braise"
+      ]
+    },
+    {
+      "id": "butter-chicken-fresh-garlic-ginger",
+      "title": "Butter Chicken — Fresh Garlic & Ginger",
+      "type": "full_dish",
+      "file": "recipes/butter-chicken-fresh-garlic-ginger.json",
+      "tags": [
+        "chicken",
+        "indian-inspired",
+        "make-ahead",
+        "fresh-garlic",
+        "fresh-ginger"
+      ]
+    },
+    {
+      "id": "butter-chicken",
+      "title": "Butter Chicken — Spice-Kit Version",
+      "type": "full_dish",
+      "file": "recipes/butter-chicken.json",
+      "tags": [
+        "chicken",
+        "indian-inspired",
+        "make-ahead"
+      ]
+    },
+    {
+      "id": "chicken-pot-pie",
+      "title": "Chicken Pot Pie — Two Pies",
+      "type": "full_dish",
+      "file": "recipes/chicken-pot-pie.json",
+      "tags": [
+        "chicken",
+        "comfort-food",
+        "make-ahead"
+      ]
+    },
+    {
+      "id": "chocolate-chip-cookie-variation",
+      "title": "Chocolate Chip Cookie Variation",
+      "type": "dessert",
+      "file": "recipes/chocolate-chip-cookie-variation.json",
+      "tags": [
+        "cookies",
+        "baking"
+      ]
+    },
+    {
+      "id": "croque-monsieur-sliders",
+      "title": "Croque Monsieur Hawaiian Roll Sliders",
+      "type": "full_dish",
+      "file": "recipes/croque-monsieur-sliders.json",
+      "tags": [
+        "sliders",
+        "ham",
+        "make-ahead"
+      ]
+    },
+    {
+      "id": "quick-alfredo-sauce",
+      "title": "Easy Alfredo Sauce",
+      "type": "sauce",
+      "file": "recipes/quick-alfredo-sauce.json",
+      "tags": [
+        "pasta",
+        "sauce"
+      ]
+    },
+    {
+      "id": "gin-and-tonic",
+      "title": "Gin and Tonic",
+      "type": "drink",
+      "file": "recipes/gin-and-tonic.json",
+      "tags": [
+        "cocktail",
+        "drink"
+      ]
+    },
+    {
+      "id": "grilled-hamburgers",
+      "title": "Grilled 80/20 Hamburgers",
+      "type": "full_dish",
+      "file": "recipes/grilled-hamburgers.json",
+      "tags": [
+        "grill",
+        "beef",
+        "burgers"
+      ]
+    },
+    {
+      "id": "ground-beef-taco-seasoning",
+      "title": "Ground Beef Taco Seasoning",
+      "type": "seasoning",
+      "file": "recipes/ground-beef-taco-seasoning.json",
+      "tags": [
+        "tacos",
+        "beef",
+        "seasoning"
+      ]
+    },
+    {
+      "id": "m-and-m-cookies",
+      "title": "M&M Cookies",
+      "type": "dessert",
+      "file": "recipes/m-and-m-cookies.json",
+      "tags": [
+        "cookies",
+        "baking"
+      ]
+    },
+    {
+      "id": "old-bay-perch",
+      "title": "Old Bay Perch Fillets",
+      "type": "full_dish",
+      "file": "recipes/old-bay-perch.json",
+      "tags": [
+        "fish",
+        "seafood",
+        "skillet"
+      ]
+    },
+    {
+      "id": "peanut-butter-cookies",
+      "title": "Peanut Butter Cookies",
+      "type": "dessert",
+      "file": "recipes/peanut-butter-cookies.json",
+      "tags": [
+        "cookie",
+        "dessert",
+        "baking"
+      ]
+    },
+    {
+      "id": "quick-chicken-parm",
+      "title": "Quick Chicken Parmesan with Fettuccine",
+      "type": "assembly",
+      "file": "recipes/quick-chicken-parm.json",
+      "tags": [
+        "weeknight",
+        "chicken",
+        "semi-homemade",
+        "pasta"
+      ]
+    },
+    {
+      "id": "ground-beef-mostaccioli",
+      "title": "Quick Ground Beef Mostaccioli",
+      "type": "full_dish",
+      "file": "recipes/ground-beef-mostaccioli.json",
+      "tags": [
+        "pasta",
+        "beef",
+        "weeknight"
+      ]
+    },
+    {
+      "id": "shrimp-cocktail-sauce",
+      "title": "Quick Shrimp Cocktail Sauce",
+      "type": "sauce",
+      "file": "recipes/shrimp-cocktail-sauce.json",
+      "tags": [
+        "seafood",
+        "dip"
+      ]
+    },
+    {
+      "id": "honey-mustard-sweet-potato-fries",
+      "title": "Sweeter Honey Mustard Dip for Sweet Potato Fries",
+      "type": "dip",
+      "file": "recipes/honey-mustard-sweet-potato-fries.json",
+      "tags": [
+        "dip",
+        "sweet-potatoes",
+        "quick"
+      ]
+    },
+    {
+      "id": "thai-peanut-chicken-noodles",
+      "title": "Thai Peanut Chicken Rice Noodles",
+      "type": "full_dish",
+      "file": "recipes/thai-peanut-chicken-noodles.json",
+      "tags": [
+        "chicken",
+        "thai-inspired",
+        "noodles"
+      ]
+    },
+    {
+      "id": "thin-top-round-fajitas",
+      "title": "Thin Top Round Beef Fajitas",
+      "type": "full_dish",
+      "file": "recipes/thin-top-round-fajitas.json",
+      "tags": [
+        "beef",
+        "fajitas",
+        "skillet"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/recipes/recipe.schema.json",
+  "title": "Recipe data model v1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "title",
+    "recipe_type",
+    "standardization",
+    "time",
+    "yield_info",
+    "nutrition",
+    "ingredients",
+    "phases",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "recipe_type": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "standardization": {
+      "type": "object",
+      "required": [
+        "description",
+        "scale_basis"
+      ],
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "scale_basis": {
+          "type": "object"
+        }
+      }
+    },
+    "time": {
+      "type": "object",
+      "properties": {
+        "prep_minutes": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "inactive_minutes": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "cook_minutes": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "total_minutes": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "yield_info": {
+      "type": "object",
+      "required": [
+        "finished_weight_g",
+        "finished_weight_status"
+      ],
+      "properties": {
+        "servings": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "finished_weight_g": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "finished_weight_status": {
+          "enum": [
+            "unknown",
+            "estimated",
+            "measured"
+          ]
+        }
+      }
+    },
+    "nutrition": {
+      "type": "object",
+      "required": [
+        "total_carbs_g",
+        "carb_type",
+        "estimate_quality"
+      ],
+      "properties": {
+        "total_carbs_g": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "carb_type": {
+          "enum": [
+            "total",
+            "net"
+          ]
+        },
+        "estimate_quality": {
+          "type": "string"
+        },
+        "calculation": {
+          "type": "string"
+        }
+      }
+    },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/ingredient"
+      }
+    },
+    "phases": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/phase"
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "history_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "provenance": {
+      "type": "object"
+    }
+  },
+  "$defs": {
+    "ingredient": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "quantity",
+        "unit",
+        "preparation",
+        "scale_mode",
+        "optional"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "quantity": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "unit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "preparation": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "scale_mode": {
+          "enum": [
+            "proportional",
+            "fixed",
+            "manual",
+            "to_taste"
+          ]
+        },
+        "optional": {
+          "type": "boolean"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "quantity_origin": {
+          "enum": [
+            "existing_archive",
+            "reconstructed_default",
+            "to_taste"
+          ]
+        }
+      }
+    },
+    "additionalProperties": false,
+    "step": {
+      "type": "object",
+      "required": [
+        "id",
+        "instruction",
+        "ingredient_uses",
+        "time_minutes",
+        "temperature_f",
+        "source_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "instruction": {
+          "type": "string"
+        },
+        "ingredient_uses": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "ingredient_id"
+            ],
+            "properties": {
+              "ingredient_id": {
+                "type": "string"
+              },
+              "quantity": {
+                "type": "number"
+              },
+              "unit": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "time_minutes": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "temperature_f": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "source_status": {
+          "enum": [
+            "verified",
+            "reconstructed"
+          ]
+        },
+        "warning": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "phase": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "steps"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/step"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
